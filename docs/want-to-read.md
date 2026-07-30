@@ -9,7 +9,7 @@ description: "Books waiting on the shelf."
 
 <div class="grid cards" markdown>
 
--   **[20,000 Leagues Under the Sea](books/twenty-thousand-leagues-under-the-sea.md)**
+-   **[20,000 Leagues Under the Sea](twenty-thousand-leagues-under-the-sea.md)**
 
     ---
 
@@ -17,7 +17,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[90 Seconds to a Life You Love](books/90-seconds-to-a-life-you-love.md)**
+-   **[90 Seconds to a Life You Love](90-seconds-to-a-life-you-love.md)**
 
     ---
 
@@ -25,7 +25,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[A Connecticut Yankee in King Arthur's Court](books/a-connecticut-yankee-in-king-arthurs-court.md)**
+-   **[A Connecticut Yankee in King Arthur's Court](a-connecticut-yankee-in-king-arthurs-court.md)**
 
     ---
 
@@ -33,7 +33,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[A Grief Observed](books/a-grief-observed.md)**
+-   **[A Grief Observed](a-grief-observed.md)**
 
     ---
 
@@ -41,7 +41,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[A Land Remembered](books/a-land-remembered.md)**
+-   **[A Land Remembered](a-land-remembered.md)**
 
     ---
 
@@ -49,7 +49,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Altar Against Altar](books/altar-against-altar.md)**
+-   **[Altar Against Altar](altar-against-altar.md)**
 
     ---
 
@@ -59,7 +59,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[American Canopy](books/american-canopy.md)**
+-   **[American Canopy](american-canopy.md)**
 
     ---
 
@@ -69,7 +69,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Amusing Ourselves to Death](books/amusing-ourselves-to-death.md)**
+-   **[Amusing Ourselves to Death](amusing-ourselves-to-death.md)**
 
     ---
 
@@ -77,7 +77,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Anatomy of a Breakthrough](books/anatomy-of-a-breakthrough.md)**
+-   **[Anatomy of a Breakthrough](anatomy-of-a-breakthrough.md)**
 
     ---
 
@@ -87,7 +87,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Can a Pope Be a Heretic?](books/can-a-pope-be-a-heretic.md)**
+-   **[Can a Pope Be a Heretic?](can-a-pope-be-a-heretic.md)**
 
     ---
 
@@ -95,7 +95,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Crime and Punishment](books/crime-and-punishment.md)**
+-   **[Crime and Punishment](crime-and-punishment.md)**
 
     ---
 
@@ -103,7 +103,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Cult Mentality](books/cult-mentality.md)**
+-   **[Cult Mentality](cult-mentality.md)**
 
     ---
 
@@ -111,7 +111,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Darkness at Noon](books/darkness-at-noon.md)**
+-   **[Darkness at Noon](darkness-at-noon.md)**
 
     ---
 
@@ -119,7 +119,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Devil in the Stack](books/devil-in-the-stack.md)**
+-   **[Devil in the Stack](devil-in-the-stack.md)**
 
     ---
 
@@ -129,7 +129,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Dune](books/dune.md)**
+-   **[Dune](dune.md)**
 
     ---
 
@@ -137,7 +137,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Endure](books/endure.md)**
+-   **[Endure](endure.md)**
 
     ---
 
@@ -145,7 +145,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Expert Political Judgment](books/expert-political-judgment.md)**
+-   **[Expert Political Judgment](expert-political-judgment.md)**
 
     ---
 
@@ -155,7 +155,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Extreme Ownership](books/extreme-ownership.md)**
+-   **[Extreme Ownership](extreme-ownership.md)**
 
     ---
 
@@ -163,7 +163,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Faith in Crisis](books/faith-in-crisis.md)**
+-   **[Faith in Crisis](faith-in-crisis.md)**
 
     ---
 
@@ -173,7 +173,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Food Forensics](books/food-forensics.md)**
+-   **[Food Forensics](food-forensics.md)**
 
     ---
 
@@ -181,7 +181,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[George MacDonald](books/george-macdonald.md)**
+-   **[George MacDonald](george-macdonald.md)**
 
     ---
 
@@ -191,7 +191,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Ghost Stories](books/ghost-stories.md)**
+-   **[Ghost Stories](ghost-stories.md)**
 
     ---
 
@@ -201,7 +201,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Good to Great](books/good-to-great.md)**
+-   **[Good to Great](good-to-great.md)**
 
     ---
 
@@ -209,7 +209,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Goodbye Christopher Robin](books/goodbye-christopher-robin.md)**
+-   **[Goodbye Christopher Robin](goodbye-christopher-robin.md)**
 
     ---
 
@@ -219,7 +219,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Gulliver's Travels](books/gullivers-travels.md)**
+-   **[Gulliver's Travels](gullivers-travels.md)**
 
     ---
 
@@ -227,7 +227,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[His Last Bow](books/his-last-bow.md)**
+-   **[His Last Bow](his-last-bow.md)**
 
     ---
 
@@ -235,7 +235,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[How to Do Things with Words](books/how-to-do-things-with-words.md)**
+-   **[How to Do Things with Words](how-to-do-things-with-words.md)**
 
     ---
 
@@ -243,7 +243,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[How to Give Up Plastic](books/how-to-give-up-plastic.md)**
+-   **[How to Give Up Plastic](how-to-give-up-plastic.md)**
 
     ---
 
@@ -251,7 +251,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[How to Live on 24 Hours a Day](books/how-to-live-on-24-hours-a-day.md)**
+-   **[How to Live on 24 Hours a Day](how-to-live-on-24-hours-a-day.md)**
 
     ---
 
@@ -259,7 +259,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[How to Pay Zero Taxes](books/how-to-pay-zero-taxes.md)**
+-   **[How to Pay Zero Taxes](how-to-pay-zero-taxes.md)**
 
     ---
 
@@ -267,7 +267,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Into the Heart of Darkness](books/into-the-heart-of-darkness.md)**
+-   **[Into the Heart of Darkness](into-the-heart-of-darkness.md)**
 
     ---
 
@@ -277,7 +277,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Jaws](books/jaws.md)**
+-   **[Jaws](jaws.md)**
 
     ---
 
@@ -285,7 +285,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Jesus and the Jewish Roots of Mary](books/jesus-and-the-jewish-roots-of-mary.md)**
+-   **[Jesus and the Jewish Roots of Mary](jesus-and-the-jewish-roots-of-mary.md)**
 
     ---
 
@@ -293,7 +293,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Jesus and the Jewish Roots of the Eucharist](books/jesus-and-the-jewish-roots-of-the-eucharist.md)**
+-   **[Jesus and the Jewish Roots of the Eucharist](jesus-and-the-jewish-roots-of-the-eucharist.md)**
 
     ---
 
@@ -301,7 +301,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Journey to the Center of the Earth](books/journey-to-the-center-of-the-earth.md)**
+-   **[Journey to the Center of the Earth](journey-to-the-center-of-the-earth.md)**
 
     ---
 
@@ -309,7 +309,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Lead Yourself First](books/lead-yourself-first.md)**
+-   **[Lead Yourself First](lead-yourself-first.md)**
 
     ---
 
@@ -319,7 +319,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Les Misérables](books/les-miserables.md)**
+-   **[Les Misérables](les-miserables.md)**
 
     ---
 
@@ -327,7 +327,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Letter to Artists](books/letter-to-artists.md)**
+-   **[Letter to Artists](letter-to-artists.md)**
 
     ---
 
@@ -335,7 +335,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Lord of the Flies](books/lord-of-the-flies.md)**
+-   **[Lord of the Flies](lord-of-the-flies.md)**
 
     ---
 
@@ -343,7 +343,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Love & Responsibility](books/love-and-responsibility.md)**
+-   **[Love & Responsibility](love-and-responsibility.md)**
 
     ---
 
@@ -351,7 +351,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Lying](books/lying.md)**
+-   **[Lying](lying.md)**
 
     ---
 
@@ -359,7 +359,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Making History](books/making-history.md)**
+-   **[Making History](making-history.md)**
 
     ---
 
@@ -367,7 +367,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Man's Search for Meaning](books/mans-search-for-meaning.md)**
+-   **[Man's Search for Meaning](mans-search-for-meaning.md)**
 
     ---
 
@@ -375,7 +375,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Men and Women Are from Eden](books/men-and-women-are-from-eden.md)**
+-   **[Men and Women Are from Eden](men-and-women-are-from-eden.md)**
 
     ---
 
@@ -385,7 +385,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Merlin's Tour of the Universe](books/merlins-tour-of-the-universe.md)**
+-   **[Merlin's Tour of the Universe](merlins-tour-of-the-universe.md)**
 
     ---
 
@@ -393,7 +393,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Miracles](books/miracles.md)**
+-   **[Miracles](miracles.md)**
 
     ---
 
@@ -401,7 +401,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Misbehaving](books/misbehaving.md)**
+-   **[Misbehaving](misbehaving.md)**
 
     ---
 
@@ -411,7 +411,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Moab Is My Washpot](books/moab-is-my-washpot.md)**
+-   **[Moab Is My Washpot](moab-is-my-washpot.md)**
 
     ---
 
@@ -419,7 +419,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[More Fool Me](books/more-fool-me.md)**
+-   **[More Fool Me](more-fool-me.md)**
 
     ---
 
@@ -427,7 +427,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[More Money Than God](books/more-money-than-god.md)**
+-   **[More Money Than God](more-money-than-god.md)**
 
     ---
 
@@ -437,7 +437,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[No Bad Parts](books/no-bad-parts.md)**
+-   **[No Bad Parts](no-bad-parts.md)**
 
     ---
 
@@ -445,7 +445,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[On Liturgical Theology](books/on-liturgical-theology.md)**
+-   **[On Liturgical Theology](on-liturgical-theology.md)**
 
     ---
 
@@ -453,7 +453,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[On Writing \(and Writers\)](books/on-writing-and-writers.md)**
+-   **[On Writing (and Writers)](on-writing-and-writers.md)**
 
     ---
 
@@ -463,7 +463,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[One Flew Over the Cuckoo's Nest](books/one-flew-over-the-cuckoos-nest.md)**
+-   **[One Flew Over the Cuckoo's Nest](one-flew-over-the-cuckoos-nest.md)**
 
     ---
 
@@ -471,7 +471,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Paperweight, Volume 1](books/paperweight-volume-1.md)**
+-   **[Paperweight, Volume 1](paperweight-volume-1.md)**
 
     ---
 
@@ -479,7 +479,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Paperweight, Volume 2](books/paperweight-volume-2.md)**
+-   **[Paperweight, Volume 2](paperweight-volume-2.md)**
 
     ---
 
@@ -487,7 +487,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Perelandra](books/perelandra.md)**
+-   **[Perelandra](perelandra.md)**
 
     ---
 
@@ -497,7 +497,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Red Rising](books/red-rising.md)**
+-   **[Red Rising](red-rising.md)**
 
     ---
 
@@ -505,7 +505,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Start with Why](books/start-with-why.md)**
+-   **[Start with Why](start-with-why.md)**
 
     ---
 
@@ -513,7 +513,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Stephen Fry in America](books/stephen-fry-in-america.md)**
+-   **[Stephen Fry in America](stephen-fry-in-america.md)**
 
     ---
 
@@ -521,7 +521,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Superforecasting](books/superforecasting.md)**
+-   **[Superforecasting](superforecasting.md)**
 
     ---
 
@@ -531,7 +531,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Surrounded by Idiots](books/surrounded-by-idiots.md)**
+-   **[Surrounded by Idiots](surrounded-by-idiots.md)**
 
     ---
 
@@ -539,7 +539,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Teaching with Authority](books/teaching-with-authority.md)**
+-   **[Teaching with Authority](teaching-with-authority.md)**
 
     ---
 
@@ -549,7 +549,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[That Hideous Strength](books/that-hideous-strength.md)**
+-   **[That Hideous Strength](that-hideous-strength.md)**
 
     ---
 
@@ -559,7 +559,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The 7 Habits of Highly Effective People](books/the-7-habits-of-highly-effective-people.md)**
+-   **[The 7 Habits of Highly Effective People](the-7-habits-of-highly-effective-people.md)**
 
     ---
 
@@ -567,7 +567,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Abolition of Man](books/the-abolition-of-man.md)**
+-   **[The Abolition of Man](the-abolition-of-man.md)**
 
     ---
 
@@ -575,7 +575,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Almanack of Naval Ravikant](books/the-almanack-of-naval-ravikant.md)**
+-   **[The Almanack of Naval Ravikant](the-almanack-of-naval-ravikant.md)**
 
     ---
 
@@ -585,7 +585,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Anxious Generation](books/the-anxious-generation.md)**
+-   **[The Anxious Generation](the-anxious-generation.md)**
 
     ---
 
@@ -593,7 +593,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Big Burn](books/the-big-burn.md)**
+-   **[The Big Burn](the-big-burn.md)**
 
     ---
 
@@ -603,7 +603,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Book That Made Your World](books/the-book-that-made-your-world.md)**
+-   **[The Book That Made Your World](the-book-that-made-your-world.md)**
 
     ---
 
@@ -613,7 +613,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Botany of Desire](books/the-botany-of-desire.md)**
+-   **[The Botany of Desire](the-botany-of-desire.md)**
 
     ---
 
@@ -621,7 +621,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Case-Book of Sherlock Holmes](books/the-case-book-of-sherlock-holmes.md)**
+-   **[The Case-Book of Sherlock Holmes](the-case-book-of-sherlock-holmes.md)**
 
     ---
 
@@ -629,7 +629,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Catcher in the Rye](books/the-catcher-in-the-rye.md)**
+-   **[The Catcher in the Rye](the-catcher-in-the-rye.md)**
 
     ---
 
@@ -637,7 +637,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Count of Monte Cristo](books/the-count-of-monte-cristo.md)**
+-   **[The Count of Monte Cristo](the-count-of-monte-cristo.md)**
 
     ---
 
@@ -645,7 +645,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Dutch House](books/the-dutch-house.md)**
+-   **[The Dutch House](the-dutch-house.md)**
 
     ---
 
@@ -653,7 +653,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Eternal Frontier](books/the-eternal-frontier.md)**
+-   **[The Eternal Frontier](the-eternal-frontier.md)**
 
     ---
 
@@ -663,7 +663,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Fry Chronicles](books/the-fry-chronicles.md)**
+-   **[The Fry Chronicles](the-fry-chronicles.md)**
 
     ---
 
@@ -671,7 +671,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Grapes of Wrath](books/the-grapes-of-wrath.md)**
+-   **[The Grapes of Wrath](the-grapes-of-wrath.md)**
 
     ---
 
@@ -679,7 +679,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Great Divorce](books/the-great-divorce.md)**
+-   **[The Great Divorce](the-great-divorce.md)**
 
     ---
 
@@ -687,7 +687,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Great Gatsby](books/the-great-gatsby.md)**
+-   **[The Great Gatsby](the-great-gatsby.md)**
 
     ---
 
@@ -695,7 +695,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Gulag Archipelago](books/the-gulag-archipelago.md)**
+-   **[The Gulag Archipelago](the-gulag-archipelago.md)**
 
     ---
 
@@ -703,7 +703,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Hippopotamus](books/the-hippopotamus.md)**
+-   **[The Hippopotamus](the-hippopotamus.md)**
 
     ---
 
@@ -711,7 +711,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Hitchhiker's Guide to the Galaxy](books/the-hitchhikers-guide-to-the-galaxy.md)**
+-   **[The Hitchhiker's Guide to the Galaxy](the-hitchhikers-guide-to-the-galaxy.md)**
 
     ---
 
@@ -719,7 +719,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The House of Morgan](books/the-house-of-morgan.md)**
+-   **[The House of Morgan](the-house-of-morgan.md)**
 
     ---
 
@@ -729,7 +729,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Intellectual Life](books/the-intellectual-life.md)**
+-   **[The Intellectual Life](the-intellectual-life.md)**
 
     ---
 
@@ -739,7 +739,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Magic of Thinking Big](books/the-magic-of-thinking-big.md)**
+-   **[The Magic of Thinking Big](the-magic-of-thinking-big.md)**
 
     ---
 
@@ -747,7 +747,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Meaning of Tradition](books/the-meaning-of-tradition.md)**
+-   **[The Meaning of Tradition](the-meaning-of-tradition.md)**
 
     ---
 
@@ -755,7 +755,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Ode Less Travelled](books/the-ode-less-travelled.md)**
+-   **[The Ode Less Travelled](the-ode-less-travelled.md)**
 
     ---
 
@@ -763,7 +763,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Power and the Glory](books/the-power-and-the-glory.md)**
+-   **[The Power and the Glory](the-power-and-the-glory.md)**
 
     ---
 
@@ -771,7 +771,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Power of Silence](books/the-power-of-silence.md)**
+-   **[The Power of Silence](the-power-of-silence.md)**
 
     ---
 
@@ -781,7 +781,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Problem of Pain](books/the-problem-of-pain.md)**
+-   **[The Problem of Pain](the-problem-of-pain.md)**
 
     ---
 
@@ -789,7 +789,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Reed of God](books/the-reed-of-god.md)**
+-   **[The Reed of God](the-reed-of-god.md)**
 
     ---
 
@@ -797,7 +797,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Return of Sherlock Holmes](books/the-return-of-sherlock-holmes.md)**
+-   **[The Return of Sherlock Holmes](the-return-of-sherlock-holmes.md)**
 
     ---
 
@@ -805,7 +805,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Sacrament of the Present Moment](books/the-sacrament-of-the-present-moment.md)**
+-   **[The Sacrament of the Present Moment](the-sacrament-of-the-present-moment.md)**
 
     ---
 
@@ -813,7 +813,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Seven Principles for Making Marriage Work](books/the-seven-principles-for-making-marriage-work.md)**
+-   **[The Seven Principles for Making Marriage Work](the-seven-principles-for-making-marriage-work.md)**
 
     ---
 
@@ -821,7 +821,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Seven Storey Mountain](books/the-seven-storey-mountain.md)**
+-   **[The Seven Storey Mountain](the-seven-storey-mountain.md)**
 
     ---
 
@@ -829,7 +829,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Stars' Tennis Balls](books/the-stars-tennis-balls.md)**
+-   **[The Stars' Tennis Balls](the-stars-tennis-balls.md)**
 
     ---
 
@@ -837,7 +837,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Success Equation](books/the-success-equation.md)**
+-   **[The Success Equation](the-success-equation.md)**
 
     ---
 
@@ -847,7 +847,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Surprising Rebirth of Belief in God](books/the-surprising-rebirth-of-belief-in-god.md)**
+-   **[The Surprising Rebirth of Belief in God](the-surprising-rebirth-of-belief-in-god.md)**
 
     ---
 
@@ -855,7 +855,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Tattooist of Auschwitz](books/the-tattooist-of-auschwitz.md)**
+-   **[The Tattooist of Auschwitz](the-tattooist-of-auschwitz.md)**
 
     ---
 
@@ -863,7 +863,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Three Musketeers](books/the-three-musketeers.md)**
+-   **[The Three Musketeers](the-three-musketeers.md)**
 
     ---
 
@@ -871,7 +871,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Valley of Fear](books/the-valley-of-fear.md)**
+-   **[The Valley of Fear](the-valley-of-fear.md)**
 
     ---
 
@@ -879,7 +879,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Weight of Glory](books/the-weight-of-glory.md)**
+-   **[The Weight of Glory](the-weight-of-glory.md)**
 
     ---
 
@@ -887,7 +887,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[The Whole-Brain Child](books/the-whole-brain-child.md)**
+-   **[The Whole-Brain Child](the-whole-brain-child.md)**
 
     ---
 
@@ -895,7 +895,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Theology and Sanity](books/theology-and-sanity.md)**
+-   **[Theology and Sanity](theology-and-sanity.md)**
 
     ---
 
@@ -903,7 +903,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Three Men in a Boat](books/three-men-in-a-boat.md)**
+-   **[Three Men in a Boat](three-men-in-a-boat.md)**
 
     ---
 
@@ -911,7 +911,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Treasure Island](books/treasure-island.md)**
+-   **[Treasure Island](treasure-island.md)**
 
     ---
 
@@ -919,7 +919,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Walden](books/walden.md)**
+-   **[Walden](walden.md)**
 
     ---
 
@@ -927,7 +927,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Watership Down](books/watership-down.md)**
+-   **[Watership Down](watership-down.md)**
 
     ---
 
@@ -935,7 +935,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[We Who Wrestle with God](books/we-who-wrestle-with-god.md)**
+-   **[We Who Wrestle with God](we-who-wrestle-with-god.md)**
 
     ---
 
@@ -943,7 +943,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[What Every BODY Is Saying](books/what-every-body-is-saying.md)**
+-   **[What Every BODY Is Saying](what-every-body-is-saying.md)**
 
     ---
 
@@ -951,7 +951,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[Wild at Heart](books/wild-at-heart.md)**
+-   **[Wild at Heart](wild-at-heart.md)**
 
     ---
 
@@ -959,7 +959,7 @@ description: "Books waiting on the shelf."
 
     :lucide-book-plus: Want to read · :lucide-headphones: Audiobook
 
--   **[You Can Be a Stock Market Genius](books/you-can-be-a-stock-market-genius.md)**
+-   **[You Can Be a Stock Market Genius](you-can-be-a-stock-market-genius.md)**
 
     ---
 

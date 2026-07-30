@@ -1,0 +1,55 @@
+name: Update shelves
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/books/**'
+      - 'scripts/shelves.py'
+  pull_request:
+    paths:
+      - 'docs/books/**'
+      - 'scripts/shelves.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shelves-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  shelves:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # On a pull request, only report: the branch is not ours to push to.
+      - name: Check the shelves match the books
+        if: github.event_name == 'pull_request'
+        run: |
+          python3 scripts/shelves.py --check || {
+            echo "::error::A book changed shelves. Run 'python3 scripts/shelves.py' and commit the result."
+            exit 1
+          }
+
+      - name: Rebuild the shelves from the book pages
+        if: github.event_name != 'pull_request'
+        run: python3 scripts/shelves.py
+
+      - name: Commit any moved books
+        if: github.event_name != 'pull_request'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Shelves already up to date."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Move books to their shelves"
+          git push

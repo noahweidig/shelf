@@ -1,0 +1,17 @@
+{% extends "main.html" %}
+
+{% block content %}
+  {#- Books used to live under /books/<slug>/; they are at the site root now. -#}
+  <script>
+    (function () {
+      var moved = window.location.pathname.replace(/(^|\/)books\/(?=[^/])/, "$1");
+      if (moved !== window.location.pathname) {
+        window.location.replace(moved + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
+  <h1>404 &mdash; not on the shelf</h1>
+  <p>That page isn't here. Try <a href="{{ 'previously-read/' | url }}">previously read</a>,
+  <a href="{{ 'want-to-read/' | url }}">want to read</a>, or
+  <a href="{{ '.' | url }}">what I'm reading now</a>.</p>
+{% endblock %}

@@ -3,6 +3,12 @@ name: Deploy site
 on:
   push:
     branches: [main]
+  # A push made by "Update shelves" does not itself trigger a push event,
+  # so deploy once that workflow has finished moving books.
+  workflow_run:
+    workflows: [Update shelves]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
