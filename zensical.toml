@@ -258,6 +258,7 @@ language = "en"
 custom_dir = "overrides"
 favicon = "assets/favicon.svg"
 features = [
+  "content.tooltips",
   "navigation.footer",
   "navigation.indexes",
   "navigation.instant",

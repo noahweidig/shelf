@@ -7,10 +7,10 @@ Every book in `docs/` carries its own state on its metadata line:
     :lucide-mic: Read by Narrator · :lucide-book: Read in 2026, 2024
 
 This script reads all of them and rewrites the shelves that list them —
-`index.md` (currently reading), `docs/previously-read/<year>.md`,
-`want-to-read.md` — plus the `nav` table in `zensical.toml`. So marking a
-book as read is a one-line edit to that book's page: everything else
-follows from it.
+`index.md` (currently reading), `docs/previously-read/index.md` (grouped
+by a `## <year>` heading per year), `want-to-read.md` — plus the `nav`
+table in `zensical.toml`. So marking a book as read is a one-line edit to
+that book's page: everything else follows from it.
 
 Usage: python3 scripts/shelves.py [--check]
 """
@@ -68,7 +68,8 @@ class Book:
 
     @property
     def format_label(self) -> str:
-        return self.format.split(" ", 1)[1].strip() if self.format else ""
+        parts = self.format.split(" ", 1)
+        return parts[1].strip() if len(parts) > 1 else ""
 
     @property
     def rating_plain(self) -> str:
@@ -267,7 +268,12 @@ def previously_read_index(finished: list[Book], years: list[int]) -> str:
                   f"finished · {breakdown(of_year)}", ""]
         lines += [book.link(prefix="../") for book in of_year]
         sections.append("\n".join(lines))
-    span = f"{years[-1]}–{years[0]}" if len(years) > 1 else str(years[0])
+    if not years:
+        span_phrase = ""
+    elif len(years) > 1:
+        span_phrase = f" between {years[-1]}–{years[0]}"
+    else:
+        span_phrase = f" in {years[0]}"
     return (
         "---\n"
         'title: "Previously read"\n'
@@ -276,7 +282,7 @@ def previously_read_index(finished: list[Book], years: list[int]) -> str:
         "\n"
         "# :lucide-book: Previously read\n"
         "\n"
-        f"{plural(len(finished), 'book', 'books')} finished between {span}.\n"
+        f"{plural(len(finished), 'book', 'books')} finished{span_phrase}.\n"
         "\n" + "\n\n".join(sections) + "\n"
     )
 
