@@ -38,7 +38,10 @@ WANT = "want"
 ICON = {READING: ":lucide-book-marked:", READ: ":lucide-book:", WANT: ":lucide-book-plus:"}
 
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
-META_LINE = re.compile(r"^:lucide-user: .*$", re.MULTILINE)
+# The metadata line may be wrapped in the source, as long as each wrapped line
+# ends with the `·` separator — markdown joins them back into one line.
+META_LINE = re.compile(r"^:lucide-user: .*?(?<!·)$", re.MULTILINE | re.DOTALL)
+MARKDOWN_SPECIAL = re.compile(r"([*_\[\]`])")
 FIELD = re.compile(r"^(\w+):\s*(.*?)\s*$")
 
 
@@ -69,7 +72,8 @@ class Book:
 
     def card(self) -> str:
         """Render the book as a `grid cards` entry for a shelf page."""
-        lines = [f"-   **[{self.title}]({self.slug}.md)**", "", "    ---", ""]
+        link = f"-   **[{markdown_escape(self.title)}]({self.slug}.md)**"
+        lines = [link, "", "    ---", ""]
         if self.subtitle:
             lines += [f"    *{self.subtitle}*", ""]
         byline = f"by {self.author}"
@@ -82,6 +86,11 @@ class Book:
             state += f" · {self.rating}"
         lines += [f"    {byline}", "", f"    {state}"]
         return "\n".join(lines)
+
+
+def markdown_escape(value: str) -> str:
+    """Keep a title's punctuation literal inside the bold link text of a card."""
+    return MARKDOWN_SPECIAL.sub(r"\\\1", value)
 
 
 def unquote(value: str) -> str:
@@ -136,7 +145,8 @@ def parse_book(path: Path) -> Book:
     author = narrator = book_format = rating = ""
     status = ""
     years: list[int] = []
-    for part in (p.strip() for p in meta_line.group(0).split(" · ")):
+    joined = " ".join(meta_line.group(0).split())
+    for part in (p.strip() for p in joined.split(" · ")):
         if part.startswith(":lucide-user:"):
             author = part.removeprefix(":lucide-user:").strip().strip("*")
         elif part.startswith(":lucide-mic:"):
