@@ -17,7 +17,6 @@ nav = [
   { "Previously read" = [
     "previously-read/index.md",
     { "2026" = [
-      "previously-read/2026.md",
       { "A Study in Scarlet" = "a-study-in-scarlet.md" },
       { "Animal Farm" = "animal-farm.md" },
       { "Bad Therapy" = "bad-therapy.md" },
@@ -40,7 +39,6 @@ nav = [
       { "We Need to Talk" = "we-need-to-talk.md" },
     ] },
     { "2025" = [
-      "previously-read/2025.md",
       { "1984" = "1984.md" },
       { "A Christmas Carol" = "a-christmas-carol.md" },
       { "A Hunter-Gatherer's Guide to the 21st Century" = "a-hunter-gatherers-guide-to-the-21st-century.md" },
@@ -109,7 +107,6 @@ nav = [
       { "Yes to Life" = "yes-to-life.md" },
     ] },
     { "2024" = [
-      "previously-read/2024.md",
       { "Deep Conversion, Deep Prayer" = "deep-conversion-deep-prayer.md" },
       { "Dopamine Nation" = "dopamine-nation.md" },
       { "Eucharist" = "eucharist.md" },
@@ -121,14 +118,12 @@ nav = [
       { "Thrive" = "thrive.md" },
     ] },
     { "2023" = [
-      "previously-read/2023.md",
       { "Irresistible" = "irresistible.md" },
       { "Natural" = "natural.md" },
       { "One Second After" = "one-second-after.md" },
       { "This Is My Body" = "this-is-my-body.md" },
     ] },
     { "2022" = [
-      "previously-read/2022.md",
       { "Deep Work" = "deep-work.md" },
       { "Essentialism" = "essentialism.md" },
       { "Love People, Use Things" = "love-people-use-things.md" },
