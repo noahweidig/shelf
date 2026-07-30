@@ -7,7 +7,7 @@ description: "The Science of Achieving Greater Things"
 
 *The Science of Achieving Greater Things*
 
-:lucide-user: **Adam Grant** · :lucide-headphones: Audiobook · :lucide-mic: Read by Adam Grant · :lucide-book-marked: Reading
+:lucide-user: **Adam Grant** · :lucide-headphones: Audiobook · :lucide-mic: Read by Adam Grant · :lucide-book-marked: Read
 
 ---
 
