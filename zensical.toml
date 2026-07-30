@@ -26,12 +26,12 @@ features = [
 ]
 
 [project.theme.icon]
-logo = "lucide/book"
+logo = "lucide/book-open-text"
 
 [[project.theme.palette]]
 scheme = "default"
-primary = "brown"
-accent = "brown"
+primary = "blue"
+accent = "blue"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
