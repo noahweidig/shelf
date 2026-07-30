@@ -3,8 +3,11 @@
 A [Zensical](https://zensical.org) site: one markdown page per book, straight
 in `docs/`, so every book gets its own URL at the root of the domain
 (`/the-hobbit/`). Three tabs sit across the top — currently reading,
-previously read, want to read — and each year I've finished books in is a page
-under **Previously read**.
+previously read, want to read. Each shelf page is a plain list of links, one
+per book, with its format icon and a tooltip (author, narrator, rating).
+Under **Previously read** the years are section headers in the sidebar, not
+pages of their own — the single `previously-read/index.md` page groups
+finished books under a heading per year.
 
 ```
 docs/
@@ -12,7 +15,6 @@ docs/
   want-to-read.md        # Want to read       →  /want-to-read/
   previously-read/
     index.md             # Previously read    →  /previously-read/
-    2026.md              # a page per year    →  /previously-read/2026/
   the-hobbit.md          # a book             →  /the-hobbit/
 ```
 
@@ -66,11 +68,11 @@ shelves** workflow (`.github/workflows/shelves.yml`) reruns
 `scripts/shelves.py`, which rereads every book page and rewrites everything
 that lists it:
 
-- `docs/index.md`, `docs/want-to-read.md` and `docs/previously-read/*.md`,
-  including the counts in each intro line and the year pages themselves — a
-  first book finished in a new year creates that year's page
-- the `nav` table in `zensical.toml`, so the sidebar and the previous/next
-  links follow
+- `docs/index.md`, `docs/want-to-read.md` and `docs/previously-read/index.md`,
+  including the counts in each intro line and the year headings themselves —
+  a first book finished in a new year adds that heading
+- the `nav` table in `zensical.toml`, so the sidebar (including each year's
+  section header under Previously read) and the previous/next links follow
 
 It commits the result back to `main`, then the deploy workflow publishes. Run
 it yourself with `python3 scripts/shelves.py`, or `--check` to see what is out

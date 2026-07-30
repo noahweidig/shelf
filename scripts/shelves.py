@@ -59,33 +59,39 @@ class Book:
     sources: list[str] = field(default_factory=list)
 
     @property
-    def status_text(self) -> str:
-        if self.status == READING:
-            return "Reading"
-        if self.status == WANT:
-            return "Want to read"
-        return "Read in " + ", ".join(str(year) for year in self.years)
-
-    @property
     def sort_key(self) -> str:
         return self.title.lower()
 
-    def card(self) -> str:
-        """Render the book as a `grid cards` entry for a shelf page."""
-        link = f"-   **[{markdown_escape(self.title)}]({self.slug}.md)**"
-        lines = [link, "", "    ---", ""]
-        if self.subtitle:
-            lines += [f"    *{self.subtitle}*", ""]
-        byline = f"by {self.author}"
+    @property
+    def format_icon(self) -> str:
+        return self.format.split(" ", 1)[0] if self.format else ""
+
+    @property
+    def format_label(self) -> str:
+        return self.format.split(" ", 1)[1].strip() if self.format else ""
+
+    @property
+    def rating_plain(self) -> str:
+        match = re.search(r"(\d/5)\s*$", self.rating)
+        return match.group(1) if match else ""
+
+    def tooltip(self) -> str:
+        parts = [f"by {self.author}"]
         if self.narrator:
-            byline += f" · read by {self.narrator}"
-        state = f"{ICON[self.status]} {self.status_text}"
-        if self.format:
-            state += f" · {self.format}"
-        if self.rating:
-            state += f" · {self.rating}"
-        lines += [f"    {byline}", "", f"    {state}"]
-        return "\n".join(lines)
+            parts[0] += f" · read by {self.narrator}"
+        if self.format_label:
+            parts.append(self.format_label)
+        if self.rating_plain:
+            parts.append(self.rating_plain)
+        if self.status == READ:
+            parts.append("Read in " + ", ".join(str(year) for year in self.years))
+        return " · ".join(parts).replace('"', "'")
+
+    def link(self, prefix: str = "") -> str:
+        """Render the book as one line: icon, title link, tooltip."""
+        icon = self.format_icon or ICON[self.status]
+        title = markdown_escape(self.title)
+        return f'-   {icon} [{title}]({prefix}{self.slug}.md "{self.tooltip()}")'
 
 
 def markdown_escape(value: str) -> str:
@@ -186,13 +192,9 @@ def parse_book(path: Path) -> Book:
 
 
 def page(frontmatter_title: str, description: str, heading: str, intro: str,
-         books: list[Book], depth: int = 0) -> str:
-    """Render a shelf page: frontmatter, heading, intro line, card grid."""
-    prefix = "../" * depth
-    cards = "\n\n".join(
-        book.card().replace(f"]({book.slug}.md)", f"]({prefix}{book.slug}.md)")
-        for book in books
-    )
+         books: list[Book]) -> str:
+    """Render a shelf page: frontmatter, heading, intro line, link list."""
+    links = "\n".join(book.link() for book in books)
     return (
         "---\n"
         f'title: "{frontmatter_title}"\n'
@@ -203,11 +205,7 @@ def page(frontmatter_title: str, description: str, heading: str, intro: str,
         "\n"
         f"{intro}\n"
         "\n"
-        '<div class="grid cards" markdown>\n'
-        "\n"
-        f"{cards}\n"
-        "\n"
-        "</div>\n"
+        f"{links}\n"
     )
 
 
@@ -241,16 +239,6 @@ def render_pages(books: list[Book]) -> dict[Path, str]:
         ),
         PREVIOUSLY_READ / "index.md": previously_read_index(finished, years),
     }
-    for year in years:
-        of_year = [book for book in finished if year in book.years]
-        pages[PREVIOUSLY_READ / f"{year}.md"] = page(
-            f"Read in {year}",
-            f"Books finished in {year}.",
-            f":lucide-book: Read in {year}",
-            f"{plural(len(of_year), 'book', 'books')} finished in {year}.",
-            of_year,
-            depth=1,
-        )
     return pages
 
 
@@ -269,38 +257,27 @@ def breakdown(books: list[Book]) -> str:
 
 
 def previously_read_index(finished: list[Book], years: list[int]) -> str:
-    """The landing page for the Previously read tab: one card per year."""
-    cards = []
+    """The Previously read page: every finished book, grouped under a year heading."""
+    sections = []
     for year in years:
-        of_year = [book for book in finished if year in book.years]
-        cards.append(
-            "\n".join(
-                [
-                    f"-   **[Read in {year}]({year}.md)**",
-                    "",
-                    "    ---",
-                    "",
-                    f"    {plural(len(of_year), 'book', 'books')} finished in {year}.",
-                    "",
-                    f"    {breakdown(of_year)}",
-                ]
-            )
+        of_year = sorted(
+            (book for book in finished if year in book.years), key=lambda b: b.sort_key
         )
+        lines = [f"## {year}", "", f"{plural(len(of_year), 'book', 'books')} "
+                  f"finished · {breakdown(of_year)}", ""]
+        lines += [book.link(prefix="../") for book in of_year]
+        sections.append("\n".join(lines))
     span = f"{years[-1]}–{years[0]}" if len(years) > 1 else str(years[0])
     return (
         "---\n"
         'title: "Previously read"\n'
-        'description: "Every book I have finished, a page per year."\n'
+        'description: "Every book I have finished."\n'
         "---\n"
         "\n"
         "# :lucide-book: Previously read\n"
         "\n"
-        f"{plural(len(finished), 'book', 'books')} finished between {span}, a page per year.\n"
-        "\n"
-        '<div class="grid cards" markdown>\n'
-        "\n" + "\n\n".join(cards) + "\n"
-        "\n"
-        "</div>\n"
+        f"{plural(len(finished), 'book', 'books')} finished between {span}.\n"
+        "\n" + "\n\n".join(sections) + "\n"
     )
 
 
@@ -321,10 +298,10 @@ def render_nav(books: list[Book]) -> str:
     lines += ["  ] },", '  { "Previously read" = [', '    "previously-read/index.md",']
     for year in years:
         # A re-read book is listed under the most recent year it was finished,
-        # so it appears exactly once in the sidebar.
+        # so it appears exactly once in the sidebar. The year itself is a
+        # section header only — no page of its own.
         of_year = [book for book in finished if book.years[0] == year]
         lines.append(f'    {{ "{year}" = [')
-        lines.append(f'      "previously-read/{year}.md",')
         lines += [
             f'      {{ "{escape(book.title)}" = "{book.slug}.md" }},'
             for book in of_year
@@ -384,8 +361,11 @@ def main() -> int:
         path.write_text(content, encoding="utf-8")
     for path in stale:
         path.unlink()
-    for path in changed:
-        print(f"updated: {path.relative_to(ROOT)}")
+    for path in outputs:
+        if path in changed:
+            print(f"updated: {path.relative_to(ROOT)}")
+    for path in stale:
+        print(f"removed: {path.relative_to(ROOT)}")
     return 0
 
 
