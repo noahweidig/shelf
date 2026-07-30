@@ -5,11 +5,11 @@ description: "Books I'm reading right now."
 
 # :lucide-book-marked: Currently reading
 
-The 5 books I have open right now. 105 finished, 113 waiting, 87 of them listened to rather than read.
+The 5 books I have open right now. 105 finished, 113 waiting, 82 of them listened to rather than read.
 
 <div class="grid cards" markdown>
 
--   **[Hidden Potential](books/hidden-potential.md)**
+-   **[Hidden Potential](hidden-potential.md)**
 
     ---
 
@@ -19,7 +19,7 @@ The 5 books I have open right now. 105 finished, 113 waiting, 87 of them listene
 
     :lucide-book-marked: Reading · :lucide-headphones: Audiobook
 
--   **[Sherlock Holmes](books/sherlock-holmes.md)**
+-   **[Sherlock Holmes](sherlock-holmes.md)**
 
     ---
 
@@ -29,7 +29,7 @@ The 5 books I have open right now. 105 finished, 113 waiting, 87 of them listene
 
     :lucide-book-marked: Reading · :lucide-headphones: Audiobook
 
--   **[The Fellowship of the Ring](books/the-fellowship-of-the-ring.md)**
+-   **[The Fellowship of the Ring](the-fellowship-of-the-ring.md)**
 
     ---
 
@@ -39,7 +39,7 @@ The 5 books I have open right now. 105 finished, 113 waiting, 87 of them listene
 
     :lucide-book-marked: Reading · :lucide-headphones: Audiobook
 
--   **[The Night Circus](books/the-night-circus.md)**
+-   **[The Night Circus](the-night-circus.md)**
 
     ---
 
@@ -47,7 +47,7 @@ The 5 books I have open right now. 105 finished, 113 waiting, 87 of them listene
 
     :lucide-book-marked: Reading · :lucide-headphones: Audiobook
 
--   **[The Odyssey](books/the-odyssey.md)**
+-   **[The Odyssey](the-odyssey.md)**
 
     ---
 
