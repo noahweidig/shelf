@@ -22,12 +22,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node build.js
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Generate docs/ from books/
+        run: node build.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build with Zensical
+        run: zensical build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site
 
   deploy:
     needs: build

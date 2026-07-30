@@ -1,1 +1,4 @@
-dist/
+site/
+docs/index.md
+docs/books/
+.venv/
