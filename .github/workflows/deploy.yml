@@ -22,6 +22,8 @@ concurrency:
 
 jobs:
   build:
+    # Never publish on the back of a shelves run that failed or was cancelled.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
