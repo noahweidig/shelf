@@ -24,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history, so the push step can rebase if main has moved on.
+          fetch-depth: 0
       - uses: actions/setup-python@v7
         with:
           python-version: '3.x'
@@ -52,4 +55,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "Move books to their shelves"
-          git push
+
+          # main may have moved while we were generating: rebase onto it,
+          # regenerate against whatever books it now holds, and try again.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected, rebasing onto main (attempt $attempt)."
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            python3 scripts/shelves.py
+            git add -A
+            git diff --cached --quiet || git commit --amend --no-edit
+          done
+          echo "::error::Could not push the regenerated shelves after 3 attempts."
+          exit 1
