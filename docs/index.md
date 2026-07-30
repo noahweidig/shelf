@@ -17,7 +17,7 @@ The 5 books I have open right now. 105 finished, 113 waiting, 82 of them listene
 
     by Adam Grant · read by Adam Grant
 
-    :lucide-book-marked: Reading · :lucide-headphones: Audiobook · :lucide-star: :lucide-star: :lucide-star: :lucide-star: :lucide-star: 5/5
+    :lucide-book-marked: Read · :lucide-headphones: Audiobook · :lucide-star: :lucide-star: :lucide-star: :lucide-star: :lucide-star: 5/5
 
 -   **[Sherlock Holmes](sherlock-holmes.md)**
 
