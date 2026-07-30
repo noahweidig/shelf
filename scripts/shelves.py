@@ -68,7 +68,8 @@ class Book:
 
     @property
     def format_label(self) -> str:
-        return self.format.split(" ", 1)[1].strip() if self.format else ""
+        parts = self.format.split(" ", 1)
+        return parts[1].strip() if len(parts) > 1 else ""
 
     @property
     def rating_plain(self) -> str:
