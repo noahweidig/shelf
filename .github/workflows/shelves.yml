@@ -4,11 +4,11 @@ on:
   push:
     branches: [main]
     paths:
-      - 'docs/books/**'
+      - 'docs/**.md'
       - 'scripts/shelves.py'
   pull_request:
     paths:
-      - 'docs/books/**'
+      - 'docs/**.md'
       - 'scripts/shelves.py'
   workflow_dispatch:
 
