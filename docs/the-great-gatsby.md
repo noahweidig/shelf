@@ -1,10 +1,21 @@
 ---
 title: "The Great Gatsby"
+author: "F. Scott Fitzgerald"
+narrator: "Jake Gyllenhaal"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Great Gatsby
 
-:lucide-user: **F. Scott Fitzgerald** · :lucide-headphones: Audiobook · :lucide-mic: Read by Jake Gyllenhaal · :lucide-book-plus: Want to read
+Author
+:   F. Scott Fitzgerald
+
+Format
+:   :lucide-headphones: Audiobook — read by Jake Gyllenhaal
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

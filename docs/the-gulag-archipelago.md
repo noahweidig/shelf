@@ -1,10 +1,21 @@
 ---
 title: "The Gulag Archipelago"
+author: "Aleksandr Solzhenitsyn"
+narrator: "Ignat Solzhenitsyn"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Gulag Archipelago
 
-:lucide-user: **Aleksandr Solzhenitsyn** · :lucide-headphones: Audiobook · :lucide-mic: Read by Ignat Solzhenitsyn · :lucide-book-plus: Want to read
+Author
+:   Aleksandr Solzhenitsyn
+
+Format
+:   :lucide-headphones: Audiobook — read by Ignat Solzhenitsyn
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

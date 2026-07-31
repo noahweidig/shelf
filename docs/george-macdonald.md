@@ -1,13 +1,23 @@
 ---
 title: "George MacDonald"
 description: "An Anthology"
+author: "C. S. Lewis"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: George MacDonald
 
 *An Anthology*
 
-:lucide-user: **C. S. Lewis** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   C. S. Lewis
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,21 @@
 ---
 title: "We Who Wrestle with God"
+author: "Jordan B. Peterson"
+narrator: "Jordan B. Peterson"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: We Who Wrestle with God
 
-:lucide-user: **Jordan B. Peterson** · :lucide-headphones: Audiobook · :lucide-mic: Read by Jordan B. Peterson · :lucide-book-plus: Want to read
+Author
+:   Jordan B. Peterson
+
+Format
+:   :lucide-headphones: Audiobook — read by Jordan B. Peterson
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

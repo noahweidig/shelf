@@ -1,10 +1,21 @@
 ---
 title: "A Land Remembered"
+author: "Patrick D. Smith"
+narrator: "George Guidall"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: A Land Remembered
 
-:lucide-user: **Patrick D. Smith** · :lucide-headphones: Audiobook · :lucide-mic: Read by George Guidall · :lucide-book-plus: Want to read
+Author
+:   Patrick D. Smith
+
+Format
+:   :lucide-headphones: Audiobook — read by George Guidall
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,21 @@
 ---
 title: "The Grapes of Wrath"
+author: "John Steinbeck"
+narrator: "Dylan Baker"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Grapes of Wrath
 
-:lucide-user: **John Steinbeck** · :lucide-headphones: Audiobook · :lucide-mic: Read by Dylan Baker · :lucide-book-plus: Want to read
+Author
+:   John Steinbeck
+
+Format
+:   :lucide-headphones: Audiobook — read by Dylan Baker
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

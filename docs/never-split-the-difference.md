@@ -1,13 +1,25 @@
 ---
 title: "Never Split the Difference"
 description: "Negotiating as if Your Life Depended on It"
+author: "Chris Voss"
+narrator: "Michael Kramer"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Never Split the Difference
 
 *Negotiating as if Your Life Depended on It*
 
-:lucide-user: **Chris Voss** · :lucide-headphones: Audiobook · :lucide-mic: Read by Michael Kramer · :lucide-book: Read in 2025
+Author
+:   Chris Voss
+
+Format
+:   :lucide-headphones: Audiobook — read by Michael Kramer
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

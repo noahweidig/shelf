@@ -1,13 +1,25 @@
 ---
 title: "Troy"
 description: "The Greek Myths Reimagined"
+author: "Stephen Fry"
+narrator: "Stephen Fry"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Troy
 
 *The Greek Myths Reimagined*
 
-:lucide-user: **Stephen Fry** · :lucide-headphones: Audiobook · :lucide-mic: Read by Stephen Fry · :lucide-book: Read in 2025
+Author
+:   Stephen Fry
+
+Format
+:   :lucide-headphones: Audiobook — read by Stephen Fry
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

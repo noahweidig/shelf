@@ -8,7 +8,6 @@ copyright = "© 2026 Noah Weidig"
 nav = [
   { "Currently reading" = [
     "index.md",
-    { "Hidden Potential" = "hidden-potential.md" },
     { "Sherlock Holmes" = "sherlock-holmes.md" },
     { "The Fellowship of the Ring" = "the-fellowship-of-the-ring.md" },
     { "The Night Circus" = "the-night-circus.md" },
@@ -23,6 +22,7 @@ nav = [
       { "Brideshead Revisited" = "brideshead-revisited.md" },
       { "Fill These Hearts" = "fill-these-hearts.md" },
       { "Free" = "free.md" },
+      { "Hidden Potential" = "hidden-potential.md" },
       { "Magic Pill" = "magic-pill.md" },
       { "Of Mice and Men" = "of-mice-and-men.md" },
       { "Stolen Focus" = "stolen-focus.md" },
@@ -248,6 +248,7 @@ nav = [
     { "Wild at Heart" = "wild-at-heart.md" },
     { "You Can Be a Stock Market Genius" = "you-can-be-a-stock-market-genius.md" },
   ] },
+  "tags/index.md",
 ]
 
 [project.extra]

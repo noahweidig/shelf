@@ -1,10 +1,21 @@
 ---
 title: "Lying"
+author: "Sam Harris"
+narrator: "Sam Harris"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Lying
 
-:lucide-user: **Sam Harris** · :lucide-headphones: Audiobook · :lucide-mic: Read by Sam Harris · :lucide-book-plus: Want to read
+Author
+:   Sam Harris
+
+Format
+:   :lucide-headphones: Audiobook — read by Sam Harris
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,21 @@
 ---
-title: "Les Mis\u00e9rables"
+title: "Les Misérables"
+author: "Victor Hugo"
+narrator: "George Guidall"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Les Misérables
 
-:lucide-user: **Victor Hugo** · :lucide-headphones: Audiobook · :lucide-mic: Read by George Guidall · :lucide-book-plus: Want to read
+Author
+:   Victor Hugo
+
+Format
+:   :lucide-headphones: Audiobook — read by George Guidall
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,22 @@
 ---
 title: "Alice's Adventures in Wonderland"
+author: "Lewis Carroll"
+narrator: "Scarlett Johansson"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Alice's Adventures in Wonderland
 
-:lucide-user: **Lewis Carroll** · :lucide-headphones: Audiobook · :lucide-mic: Read by Scarlett Johansson · :lucide-book: Read in 2025
+Author
+:   Lewis Carroll
+
+Format
+:   :lucide-headphones: Audiobook — read by Scarlett Johansson
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

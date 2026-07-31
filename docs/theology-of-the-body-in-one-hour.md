@@ -1,10 +1,21 @@
 ---
 title: "Theology of the Body in One Hour"
+author: "Jason Evert"
+format: physical
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Theology of the Body in One Hour
 
-:lucide-user: **Jason Evert** · :lucide-book-open: Physical · :lucide-book: Read in 2025
+Author
+:   Jason Evert
+
+Format
+:   :lucide-book-open: Physical
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

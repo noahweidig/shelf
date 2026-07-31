@@ -1,13 +1,25 @@
 ---
 title: "Set Boundaries, Find Peace"
 description: "A Guide to Reclaiming Yourself"
+author: "Nedra Glover Tawwab"
+narrator: "Nedra Glover Tawwab"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Set Boundaries, Find Peace
 
 *A Guide to Reclaiming Yourself*
 
-:lucide-user: **Nedra Glover Tawwab** · :lucide-headphones: Audiobook · :lucide-mic: Read by Nedra Glover Tawwab · :lucide-book: Read in 2025
+Author
+:   Nedra Glover Tawwab
+
+Format
+:   :lucide-headphones: Audiobook — read by Nedra Glover Tawwab
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

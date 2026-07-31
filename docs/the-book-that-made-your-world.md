@@ -1,13 +1,24 @@
 ---
 title: "The Book That Made Your World"
 description: "How the Bible Created the Soul of Western Civilization"
+author: "Vishal Mangalwadi"
+narrator: "Peter Lawrence"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Book That Made Your World
 
 *How the Bible Created the Soul of Western Civilization*
 
-:lucide-user: **Vishal Mangalwadi** · :lucide-headphones: Audiobook · :lucide-mic: Read by Peter Lawrence · :lucide-book-plus: Want to read
+Author
+:   Vishal Mangalwadi
+
+Format
+:   :lucide-headphones: Audiobook — read by Peter Lawrence
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,21 @@
 ---
 title: "Jesus and the Jewish Roots of the Eucharist"
+author: "Brant Pitre"
+narrator: "David Cochran Heath"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Jesus and the Jewish Roots of the Eucharist
 
-:lucide-user: **Brant Pitre** · :lucide-headphones: Audiobook · :lucide-mic: Read by David Cochran Heath · :lucide-book-plus: Want to read
+Author
+:   Brant Pitre
+
+Format
+:   :lucide-headphones: Audiobook — read by David Cochran Heath
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

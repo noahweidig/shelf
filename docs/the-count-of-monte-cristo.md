@@ -1,10 +1,21 @@
 ---
 title: "The Count of Monte Cristo"
+author: "Alexandre Dumas"
+narrator: "Bill Homewood"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Count of Monte Cristo
 
-:lucide-user: **Alexandre Dumas** · :lucide-headphones: Audiobook · :lucide-mic: Read by Bill Homewood · :lucide-book-plus: Want to read
+Author
+:   Alexandre Dumas
+
+Format
+:   :lucide-headphones: Audiobook — read by Bill Homewood
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

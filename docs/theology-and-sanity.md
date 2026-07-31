@@ -1,10 +1,20 @@
 ---
 title: "Theology and Sanity"
+author: "Frank Sheed"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Theology and Sanity
 
-:lucide-user: **Frank Sheed** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Frank Sheed
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

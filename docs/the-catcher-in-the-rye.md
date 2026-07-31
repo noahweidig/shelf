@@ -1,10 +1,20 @@
 ---
 title: "The Catcher in the Rye"
+author: "J. D. Salinger"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Catcher in the Rye
 
-:lucide-user: **J. D. Salinger** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   J. D. Salinger
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

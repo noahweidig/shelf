@@ -1,10 +1,21 @@
 ---
 title: "The Anxious Generation"
+author: "Jonathan Haidt"
+narrator: "Sean Pratt"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Anxious Generation
 
-:lucide-user: **Jonathan Haidt** · :lucide-headphones: Audiobook · :lucide-mic: Read by Sean Pratt · :lucide-book-plus: Want to read
+Author
+:   Jonathan Haidt
+
+Format
+:   :lucide-headphones: Audiobook — read by Sean Pratt
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

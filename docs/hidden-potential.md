@@ -1,13 +1,29 @@
 ---
 title: "Hidden Potential"
 description: "The Science of Achieving Greater Things"
+author: "Adam Grant"
+narrator: "Adam Grant"
+format: audiobook
+status: read
+read_years: [2026]
+rating: 5
 ---
 
-# :lucide-book-marked: Hidden Potential
+# :lucide-book: Hidden Potential
 
 *The Science of Achieving Greater Things*
 
-:lucide-user: **Adam Grant** · :lucide-headphones: Audiobook · :lucide-mic: Read by Adam Grant · :lucide-book-marked: Read · :lucide-star: :lucide-star: :lucide-star: :lucide-star: :lucide-star: 5/5
+Author
+:   Adam Grant
+
+Format
+:   :lucide-headphones: Audiobook — read by Adam Grant
+
+Status
+:   :lucide-book: Read in 2026
+
+Rating
+:   :lucide-star: :lucide-star: :lucide-star: :lucide-star: :lucide-star: (5/5)
 
 ---
 

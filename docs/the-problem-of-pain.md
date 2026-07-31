@@ -1,10 +1,21 @@
 ---
 title: "The Problem of Pain"
+author: "C. S. Lewis"
+narrator: "James Simmons"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Problem of Pain
 
-:lucide-user: **C. S. Lewis** · :lucide-headphones: Audiobook · :lucide-mic: Read by James Simmons · :lucide-book-plus: Want to read
+Author
+:   C. S. Lewis
+
+Format
+:   :lucide-headphones: Audiobook — read by James Simmons
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

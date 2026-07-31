@@ -1,10 +1,21 @@
 ---
 title: "Good to Great"
+author: "Jim Collins"
+narrator: "Jim Collins"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Good to Great
 
-:lucide-user: **Jim Collins** · :lucide-headphones: Audiobook · :lucide-mic: Read by Jim Collins · :lucide-book-plus: Want to read
+Author
+:   Jim Collins
+
+Format
+:   :lucide-headphones: Audiobook — read by Jim Collins
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

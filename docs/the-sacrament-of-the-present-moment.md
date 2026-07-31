@@ -1,10 +1,20 @@
 ---
 title: "The Sacrament of the Present Moment"
+author: "Jean-Pierre de Caussade"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Sacrament of the Present Moment
 
-:lucide-user: **Jean-Pierre de Caussade** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Jean-Pierre de Caussade
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

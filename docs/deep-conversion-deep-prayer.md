@@ -1,10 +1,21 @@
 ---
 title: "Deep Conversion, Deep Prayer"
+author: "Thomas Dubay"
+format: physical
+status: read
+read_years: [2024]
 ---
 
 # :lucide-book: Deep Conversion, Deep Prayer
 
-:lucide-user: **Thomas Dubay** · :lucide-book-open: Physical · :lucide-book: Read in 2024
+Author
+:   Thomas Dubay
+
+Format
+:   :lucide-book-open: Physical
+
+Status
+:   :lucide-book: Read in 2024
 
 ---
 

@@ -1,10 +1,21 @@
 ---
 title: "Dune"
+author: "Frank Herbert"
+narrator: "Scott Brick, Simon Vance & full cast"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Dune
 
-:lucide-user: **Frank Herbert** · :lucide-headphones: Audiobook · :lucide-mic: Read by Scott Brick, Simon Vance & full cast · :lucide-book-plus: Want to read
+Author
+:   Frank Herbert
+
+Format
+:   :lucide-headphones: Audiobook — read by Scott Brick, Simon Vance & full cast
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

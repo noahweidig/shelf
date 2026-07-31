@@ -1,10 +1,22 @@
 ---
 title: "An Introduction to Prayer"
+author: "Bishop Robert Barron"
+narrator: "Robert Barron"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: An Introduction to Prayer
 
-:lucide-user: **Bishop Robert Barron** · :lucide-headphones: Audiobook · :lucide-mic: Read by Robert Barron · :lucide-book: Read in 2025
+Author
+:   Bishop Robert Barron
+
+Format
+:   :lucide-headphones: Audiobook — read by Robert Barron
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

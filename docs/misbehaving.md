@@ -1,13 +1,24 @@
 ---
 title: "Misbehaving"
 description: "The Making of Behavioral Economics"
+author: "Richard H. Thaler"
+narrator: "L. J. Ganser"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Misbehaving
 
 *The Making of Behavioral Economics*
 
-:lucide-user: **Richard H. Thaler** · :lucide-headphones: Audiobook · :lucide-mic: Read by L. J. Ganser · :lucide-book-plus: Want to read
+Author
+:   Richard H. Thaler
+
+Format
+:   :lucide-headphones: Audiobook — read by L. J. Ganser
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

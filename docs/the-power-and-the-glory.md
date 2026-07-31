@@ -1,10 +1,21 @@
 ---
 title: "The Power and the Glory"
+author: "Graham Greene"
+narrator: "Bernard Mayes"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Power and the Glory
 
-:lucide-user: **Graham Greene** · :lucide-headphones: Audiobook · :lucide-mic: Read by Bernard Mayes · :lucide-book-plus: Want to read
+Author
+:   Graham Greene
+
+Format
+:   :lucide-headphones: Audiobook — read by Bernard Mayes
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

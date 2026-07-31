@@ -1,10 +1,21 @@
 ---
 title: "Miracles"
+author: "C. S. Lewis"
+narrator: "Simon Vance"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Miracles
 
-:lucide-user: **C. S. Lewis** · :lucide-headphones: Audiobook · :lucide-mic: Read by Simon Vance · :lucide-book-plus: Want to read
+Author
+:   C. S. Lewis
+
+Format
+:   :lucide-headphones: Audiobook — read by Simon Vance
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

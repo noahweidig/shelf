@@ -1,10 +1,20 @@
 ---
 title: "Can a Pope Be a Heretic?"
+author: "Arnaldo Xavier da Silveira"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Can a Pope Be a Heretic?
 
-:lucide-user: **Arnaldo Xavier da Silveira** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Arnaldo Xavier da Silveira
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

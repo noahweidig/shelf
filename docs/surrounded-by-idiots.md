@@ -1,10 +1,21 @@
 ---
 title: "Surrounded by Idiots"
+author: "Thomas Erikson"
+narrator: "David John"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Surrounded by Idiots
 
-:lucide-user: **Thomas Erikson** · :lucide-headphones: Audiobook · :lucide-mic: Read by David John · :lucide-book-plus: Want to read
+Author
+:   Thomas Erikson
+
+Format
+:   :lucide-headphones: Audiobook — read by David John
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

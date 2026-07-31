@@ -1,10 +1,20 @@
 ---
 title: "Cult Mentality"
+author: "Steven Hassan"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Cult Mentality
 
-:lucide-user: **Steven Hassan** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Steven Hassan
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

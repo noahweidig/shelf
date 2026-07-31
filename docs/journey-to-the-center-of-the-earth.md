@@ -1,10 +1,21 @@
 ---
 title: "Journey to the Center of the Earth"
+author: "Jules Verne"
+narrator: "Tim Curry"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Journey to the Center of the Earth
 
-:lucide-user: **Jules Verne** · :lucide-headphones: Audiobook · :lucide-mic: Read by Tim Curry · :lucide-book-plus: Want to read
+Author
+:   Jules Verne
+
+Format
+:   :lucide-headphones: Audiobook — read by Tim Curry
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

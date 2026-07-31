@@ -1,13 +1,24 @@
 ---
 title: "Devil in the Stack"
 description: "A Code Odyssey"
+author: "Andrew Smith"
+narrator: "Andrew Smith"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Devil in the Stack
 
 *A Code Odyssey*
 
-:lucide-user: **Andrew Smith** · :lucide-headphones: Audiobook · :lucide-mic: Read by Andrew Smith · :lucide-book-plus: Want to read
+Author
+:   Andrew Smith
+
+Format
+:   :lucide-headphones: Audiobook — read by Andrew Smith
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

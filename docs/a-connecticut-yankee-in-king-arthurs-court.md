@@ -1,10 +1,21 @@
 ---
 title: "A Connecticut Yankee in King Arthur's Court"
+author: "Mark Twain"
+narrator: "Nick Offerman"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: A Connecticut Yankee in King Arthur's Court
 
-:lucide-user: **Mark Twain** · :lucide-headphones: Audiobook · :lucide-mic: Read by Nick Offerman · :lucide-book-plus: Want to read
+Author
+:   Mark Twain
+
+Format
+:   :lucide-headphones: Audiobook — read by Nick Offerman
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

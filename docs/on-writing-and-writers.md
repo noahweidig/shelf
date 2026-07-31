@@ -1,13 +1,24 @@
 ---
 title: "On Writing (and Writers)"
 description: "A Miscellany of Advice and Opinions"
+author: "C. S. Lewis"
+narrator: "John Lee"
+format: audiobook
+status: want
 ---
 
-# :lucide-book-plus: On Writing \(and Writers\)
+# :lucide-book-plus: On Writing (and Writers)
 
 *A Miscellany of Advice and Opinions*
 
-:lucide-user: **C. S. Lewis** · :lucide-headphones: Audiobook · :lucide-mic: Read by John Lee · :lucide-book-plus: Want to read
+Author
+:   C. S. Lewis
+
+Format
+:   :lucide-headphones: Audiobook — read by John Lee
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

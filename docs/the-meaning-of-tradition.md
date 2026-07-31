@@ -1,10 +1,20 @@
 ---
 title: "The Meaning of Tradition"
+author: "Yves Congar"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Meaning of Tradition
 
-:lucide-user: **Yves Congar** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Yves Congar
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

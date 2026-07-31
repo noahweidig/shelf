@@ -1,10 +1,20 @@
 ---
 title: "How to Pay Zero Taxes"
+author: "Jeff A. Schnepper"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: How to Pay Zero Taxes
 
-:lucide-user: **Jeff A. Schnepper** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Jeff A. Schnepper
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

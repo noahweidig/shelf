@@ -1,10 +1,21 @@
 ---
 title: "The Night Circus"
+author: "Erin Morgenstern"
+narrator: "Jim Dale"
+format: audiobook
+status: reading
 ---
 
 # :lucide-book-marked: The Night Circus
 
-:lucide-user: **Erin Morgenstern** · :lucide-headphones: Audiobook · :lucide-mic: Read by Jim Dale · :lucide-book-marked: Reading
+Author
+:   Erin Morgenstern
+
+Format
+:   :lucide-headphones: Audiobook — read by Jim Dale
+
+Status
+:   :lucide-book-marked: Reading
 
 ---
 
