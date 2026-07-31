@@ -6,7 +6,7 @@ icon: lucide/book-plus
 
 # :lucide-book-plus: Want to read
 
-113 books waiting their turn.
+114 books waiting their turn.
 
 <div class="grid cards" markdown>
 
@@ -264,6 +264,9 @@ icon: lucide/book-plus
 
 -   :lucide-headphones:{ title="Audiobook" } **[The Intellectual Life](the-intellectual-life.md)**<br>
     :lucide-user-round:{ title="Author" } A. G. Sertillanges
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Land of Sweet Forever](the-land-of-sweet-forever.md)**<br>
+    :lucide-user-round:{ title="Author" } Harper Lee
 
 -   :lucide-headphones:{ title="Audiobook" } **[The Magic of Thinking Big](the-magic-of-thinking-big.md)**<br>
     :lucide-user-round:{ title="Author" } David J. Schwartz
