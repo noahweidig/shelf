@@ -1,122 +1,352 @@
 ---
 title: "Want to read"
 description: "Books waiting on the shelf."
+icon: lucide/book-plus
 ---
 
 # :lucide-book-plus: Want to read
 
 113 books waiting their turn.
 
--   :lucide-headphones: [20,000 Leagues Under the Sea](twenty-thousand-leagues-under-the-sea.md "by Jules Verne · read by Bill Homewood · Audiobook")
--   :lucide-headphones: [90 Seconds to a Life You Love](90-seconds-to-a-life-you-love.md "by Joan I. Rosenberg · read by Joan I. Rosenberg · Audiobook")
--   :lucide-headphones: [A Connecticut Yankee in King Arthur's Court](a-connecticut-yankee-in-king-arthurs-court.md "by Mark Twain · read by Nick Offerman · Audiobook")
--   :lucide-headphones: [A Grief Observed](a-grief-observed.md "by C. S. Lewis · read by Ralph Cosham · Audiobook")
--   :lucide-headphones: [A Land Remembered](a-land-remembered.md "by Patrick D. Smith · read by George Guidall · Audiobook")
--   :lucide-headphones: [Altar Against Altar](altar-against-altar.md "by Andrew Mioni · Audiobook")
--   :lucide-headphones: [American Canopy](american-canopy.md "by Eric Rutkow · Audiobook")
--   :lucide-headphones: [Amusing Ourselves to Death](amusing-ourselves-to-death.md "by Neil Postman · read by Jeff Riggenbach · Audiobook")
--   :lucide-headphones: [Anatomy of a Breakthrough](anatomy-of-a-breakthrough.md "by Adam Alter · read by Adam Alter · Audiobook")
--   :lucide-headphones: [Can a Pope Be a Heretic?](can-a-pope-be-a-heretic.md "by Arnaldo Xavier da Silveira · Audiobook")
--   :lucide-headphones: [Crime and Punishment](crime-and-punishment.md "by Fyodor Dostoyevsky · read by George Guidall · Audiobook")
--   :lucide-headphones: [Cult Mentality](cult-mentality.md "by Steven Hassan · Audiobook")
--   :lucide-headphones: [Darkness at Noon](darkness-at-noon.md "by Arthur Koestler · read by Frank Muller · Audiobook")
--   :lucide-headphones: [Devil in the Stack](devil-in-the-stack.md "by Andrew Smith · read by Andrew Smith · Audiobook")
--   :lucide-headphones: [Dune](dune.md "by Frank Herbert · read by Scott Brick, Simon Vance & full cast · Audiobook")
--   :lucide-headphones: [Endure](endure.md "by Cameron Hanes · read by Cameron Hanes · Audiobook")
--   :lucide-headphones: [Expert Political Judgment](expert-political-judgment.md "by Philip E. Tetlock · read by Anthony Haden Salerno · Audiobook")
--   :lucide-headphones: [Extreme Ownership](extreme-ownership.md "by Jocko Willink & Leif Babin · read by Jocko Willink & Leif Babin · Audiobook")
--   :lucide-headphones: [Faith in Crisis](faith-in-crisis.md "by Andrew Likoudis · Audiobook")
--   :lucide-headphones: [Food Forensics](food-forensics.md "by Mike Adams · read by Roger Wayne · Audiobook")
--   :lucide-headphones: [George MacDonald](george-macdonald.md "by C. S. Lewis · Audiobook")
--   :lucide-headphones: [Ghost Stories](ghost-stories.md "by Stephen Fry & others · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [Good to Great](good-to-great.md "by Jim Collins · read by Jim Collins · Audiobook")
--   :lucide-headphones: [Goodbye Christopher Robin](goodbye-christopher-robin.md "by Ann Thwaite · read by Simon Vance · Audiobook")
--   :lucide-headphones: [Gulliver's Travels](gullivers-travels.md "by Jonathan Swift · read by David Hyde Pierce · Audiobook")
--   :lucide-headphones: [His Last Bow](his-last-bow.md "by Arthur Conan Doyle · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [How to Do Things with Words](how-to-do-things-with-words.md "by J. L. Austin · Audiobook")
--   :lucide-headphones: [How to Give Up Plastic](how-to-give-up-plastic.md "by Will McCallum · read by Jonathan Cowley · Audiobook")
--   :lucide-headphones: [How to Live on 24 Hours a Day](how-to-live-on-24-hours-a-day.md "by Arnold Bennett · read by Eric Brooks · Audiobook")
--   :lucide-headphones: [How to Pay Zero Taxes](how-to-pay-zero-taxes.md "by Jeff A. Schnepper · Audiobook")
--   :lucide-headphones: [Into the Heart of Darkness](into-the-heart-of-darkness.md "by Jacques Pauw · Audiobook")
--   :lucide-headphones: [Jaws](jaws.md "by Peter Benchley · read by Erik Steele · Audiobook")
--   :lucide-headphones: [Jesus and the Jewish Roots of Mary](jesus-and-the-jewish-roots-of-mary.md "by Brant Pitre · read by Mark Deakins · Audiobook")
--   :lucide-headphones: [Jesus and the Jewish Roots of the Eucharist](jesus-and-the-jewish-roots-of-the-eucharist.md "by Brant Pitre · read by David Cochran Heath · Audiobook")
--   :lucide-headphones: [Journey to the Center of the Earth](journey-to-the-center-of-the-earth.md "by Jules Verne · read by Tim Curry · Audiobook")
--   :lucide-headphones: [Lead Yourself First](lead-yourself-first.md "by Raymond M. Kethledge & Michael S. Erwin · read by Michael Quinlan · Audiobook")
--   :lucide-headphones: [Les Misérables](les-miserables.md "by Victor Hugo · read by George Guidall · Audiobook")
--   :lucide-headphones: [Letter to Artists](letter-to-artists.md "by Pope St. John Paul II · Audiobook")
--   :lucide-headphones: [Lord of the Flies](lord-of-the-flies.md "by William Golding · read by William Golding · Audiobook")
--   :lucide-headphones: [Love & Responsibility](love-and-responsibility.md "by Karol Wojtyla · Audiobook")
--   :lucide-headphones: [Lying](lying.md "by Sam Harris · read by Sam Harris · Audiobook")
--   :lucide-headphones: [Making History](making-history.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [Man's Search for Meaning](mans-search-for-meaning.md "by Viktor E. Frankl · read by Simon Vance · Audiobook")
--   :lucide-headphones: [Men and Women Are from Eden](men-and-women-are-from-eden.md "by Mary Healy · read by Kathy Poelker · Audiobook")
--   :lucide-headphones: [Merlin's Tour of the Universe](merlins-tour-of-the-universe.md "by Neil deGrasse Tyson · read by Neil deGrasse Tyson & full cast · Audiobook")
--   :lucide-headphones: [Miracles](miracles.md "by C. S. Lewis · read by Simon Vance · Audiobook")
--   :lucide-headphones: [Misbehaving](misbehaving.md "by Richard H. Thaler · read by L. J. Ganser · Audiobook")
--   :lucide-headphones: [Moab Is My Washpot](moab-is-my-washpot.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [More Fool Me](more-fool-me.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [More Money Than God](more-money-than-god.md "by Sebastian Mallaby · read by Alan Nebelthau · Audiobook")
--   :lucide-headphones: [No Bad Parts](no-bad-parts.md "by Richard C. Schwartz · read by Richard C. Schwartz · Audiobook")
--   :lucide-headphones: [On Liturgical Theology](on-liturgical-theology.md "by Aidan Kavanagh · Audiobook")
--   :lucide-headphones: [On Writing (and Writers)](on-writing-and-writers.md "by C. S. Lewis · read by John Lee · Audiobook")
--   :lucide-headphones: [One Flew Over the Cuckoo's Nest](one-flew-over-the-cuckoos-nest.md "by Ken Kesey · read by John C. Reilly · Audiobook")
--   :lucide-headphones: [Paperweight, Volume 1](paperweight-volume-1.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [Paperweight, Volume 2](paperweight-volume-2.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [Perelandra](perelandra.md "by C. S. Lewis · read by Geoffrey Howard · Audiobook")
--   :lucide-headphones: [Red Rising](red-rising.md "by Pierce Brown · read by Tim Gerard Reynolds · Audiobook")
--   :lucide-headphones: [Start with Why](start-with-why.md "by Simon Sinek · read by Simon Sinek · Audiobook")
--   :lucide-headphones: [Stephen Fry in America](stephen-fry-in-america.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [Superforecasting](superforecasting.md "by Philip E. Tetlock & Dan Gardner · read by Joel Richards · Audiobook")
--   :lucide-headphones: [Surrounded by Idiots](surrounded-by-idiots.md "by Thomas Erikson · read by David John · Audiobook")
--   :lucide-headphones: [Teaching with Authority](teaching-with-authority.md "by Jimmy Akin · Audiobook")
--   :lucide-headphones: [That Hideous Strength](that-hideous-strength.md "by C. S. Lewis · read by Geoffrey Howard · Audiobook")
--   :lucide-headphones: [The 7 Habits of Highly Effective People](the-7-habits-of-highly-effective-people.md "by Stephen R. Covey · read by Stephen R. Covey · Audiobook")
--   :lucide-headphones: [The Abolition of Man](the-abolition-of-man.md "by C. S. Lewis · read by Douglas Gresham · Audiobook")
--   :lucide-headphones: [The Almanack of Naval Ravikant](the-almanack-of-naval-ravikant.md "by Eric Jorgenson · read by Vikas Adam · Audiobook")
--   :lucide-headphones: [The Anxious Generation](the-anxious-generation.md "by Jonathan Haidt · read by Sean Pratt · Audiobook")
--   :lucide-headphones: [The Big Burn](the-big-burn.md "by Timothy Egan · read by Robertson Dean · Audiobook")
--   :lucide-headphones: [The Book That Made Your World](the-book-that-made-your-world.md "by Vishal Mangalwadi · read by Peter Lawrence · Audiobook")
--   :lucide-headphones: [The Botany of Desire](the-botany-of-desire.md "by Michael Pollan · read by Scott Brick · Audiobook")
--   :lucide-headphones: [The Case-Book of Sherlock Holmes](the-case-book-of-sherlock-holmes.md "by Arthur Conan Doyle · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Catcher in the Rye](the-catcher-in-the-rye.md "by J. D. Salinger · Audiobook")
--   :lucide-headphones: [The Count of Monte Cristo](the-count-of-monte-cristo.md "by Alexandre Dumas · read by Bill Homewood · Audiobook")
--   :lucide-headphones: [The Dutch House](the-dutch-house.md "by Ann Patchett · read by Tom Hanks · Audiobook")
--   :lucide-headphones: [The Eternal Frontier](the-eternal-frontier.md "by Tim Flannery · Audiobook")
--   :lucide-headphones: [The Fry Chronicles](the-fry-chronicles.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Grapes of Wrath](the-grapes-of-wrath.md "by John Steinbeck · read by Dylan Baker · Audiobook")
--   :lucide-headphones: [The Great Divorce](the-great-divorce.md "by C. S. Lewis · read by Julian Rhind-Tutt · Audiobook")
--   :lucide-headphones: [The Great Gatsby](the-great-gatsby.md "by F. Scott Fitzgerald · read by Jake Gyllenhaal · Audiobook")
--   :lucide-headphones: [The Gulag Archipelago](the-gulag-archipelago.md "by Aleksandr Solzhenitsyn · read by Ignat Solzhenitsyn · Audiobook")
--   :lucide-headphones: [The Hippopotamus](the-hippopotamus.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Hitchhiker's Guide to the Galaxy](the-hitchhikers-guide-to-the-galaxy.md "by Douglas Adams · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The House of Morgan](the-house-of-morgan.md "by Ron Chernow · read by Robertson Dean · Audiobook")
--   :lucide-headphones: [The Intellectual Life](the-intellectual-life.md "by A. G. Sertillanges · read by Joel Richards · Audiobook")
--   :lucide-headphones: [The Magic of Thinking Big](the-magic-of-thinking-big.md "by David J. Schwartz · read by Jason Culp · Audiobook")
--   :lucide-headphones: [The Meaning of Tradition](the-meaning-of-tradition.md "by Yves Congar · Audiobook")
--   :lucide-headphones: [The Ode Less Travelled](the-ode-less-travelled.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Power and the Glory](the-power-and-the-glory.md "by Graham Greene · read by Bernard Mayes · Audiobook")
--   :lucide-headphones: [The Power of Silence](the-power-of-silence.md "by Robert Cardinal Sarah · read by Peter Lawrence · Audiobook")
--   :lucide-headphones: [The Problem of Pain](the-problem-of-pain.md "by C. S. Lewis · read by James Simmons · Audiobook")
--   :lucide-headphones: [The Reed of God](the-reed-of-god.md "by Caryll Houselander · Audiobook")
--   :lucide-headphones: [The Return of Sherlock Holmes](the-return-of-sherlock-holmes.md "by Arthur Conan Doyle · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Sacrament of the Present Moment](the-sacrament-of-the-present-moment.md "by Jean-Pierre de Caussade · Audiobook")
--   :lucide-headphones: [The Seven Principles for Making Marriage Work](the-seven-principles-for-making-marriage-work.md "by John M. Gottman · read by Eric Michael Summerer · Audiobook")
--   :lucide-headphones: [The Seven Storey Mountain](the-seven-storey-mountain.md "by Thomas Merton · read by Sean Runnette · Audiobook")
--   :lucide-headphones: [The Stars' Tennis Balls](the-stars-tennis-balls.md "by Stephen Fry · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Success Equation](the-success-equation.md "by Michael J. Mauboussin · read by Wes Talbot · Audiobook")
--   :lucide-headphones: [The Surprising Rebirth of Belief in God](the-surprising-rebirth-of-belief-in-god.md "by Justin Brierley · read by Justin Brierley · Audiobook")
--   :lucide-headphones: [The Tattooist of Auschwitz](the-tattooist-of-auschwitz.md "by Heather Morris · read by Richard Armitage · Audiobook")
--   :lucide-headphones: [The Three Musketeers](the-three-musketeers.md "by Alexandre Dumas · read by Simon Vance · Audiobook")
--   :lucide-headphones: [The Valley of Fear](the-valley-of-fear.md "by Arthur Conan Doyle · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Weight of Glory](the-weight-of-glory.md "by C. S. Lewis · read by James Simmons · Audiobook")
--   :lucide-headphones: [The Whole-Brain Child](the-whole-brain-child.md "by Daniel J. Siegel & Tina Payne Bryson · read by Daniel J. Siegel & Tina Payne Bryson · Audiobook")
--   :lucide-headphones: [Theology and Sanity](theology-and-sanity.md "by Frank Sheed · Audiobook")
--   :lucide-headphones: [Three Men in a Boat](three-men-in-a-boat.md "by Jerome K. Jerome · read by Hugh Laurie · Audiobook")
--   :lucide-headphones: [Treasure Island](treasure-island.md "by Robert Louis Stevenson · read by Kevin McNally · Audiobook")
--   :lucide-headphones: [Walden](walden.md "by Henry David Thoreau · read by Mel Foster · Audiobook")
--   :lucide-headphones: [Watership Down](watership-down.md "by Richard Adams · read by Peter Capaldi · Audiobook")
--   :lucide-headphones: [We Who Wrestle with God](we-who-wrestle-with-god.md "by Jordan B. Peterson · read by Jordan B. Peterson · Audiobook")
--   :lucide-headphones: [What Every BODY Is Saying](what-every-body-is-saying.md "by Joe Navarro · read by Paul Costanzo · Audiobook")
--   :lucide-headphones: [Wild at Heart](wild-at-heart.md "by John Eldredge · read by John Eldredge · Audiobook")
--   :lucide-headphones: [You Can Be a Stock Market Genius](you-can-be-a-stock-market-genius.md "by Joel Greenblatt · read by Jonathan Todd Ross · Audiobook")
+<div class="grid cards" markdown>
+
+-   :lucide-headphones:{ title="Audiobook" } **[20,000 Leagues Under the Sea](twenty-thousand-leagues-under-the-sea.md)**<br>
+    :lucide-user-round:{ title="Author" } Jules Verne
+
+-   :lucide-headphones:{ title="Audiobook" } **[90 Seconds to a Life You Love](90-seconds-to-a-life-you-love.md)**<br>
+    :lucide-user-round:{ title="Author" } Joan I. Rosenberg
+
+-   :lucide-headphones:{ title="Audiobook" } **[A Connecticut Yankee in King Arthur's Court](a-connecticut-yankee-in-king-arthurs-court.md)**<br>
+    :lucide-user-round:{ title="Author" } Mark Twain
+
+-   :lucide-headphones:{ title="Audiobook" } **[A Grief Observed](a-grief-observed.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[A Land Remembered](a-land-remembered.md)**<br>
+    :lucide-user-round:{ title="Author" } Patrick D. Smith
+
+-   :lucide-headphones:{ title="Audiobook" } **[Altar Against Altar](altar-against-altar.md)**<br>
+    :lucide-user-round:{ title="Author" } Andrew Mioni
+
+-   :lucide-headphones:{ title="Audiobook" } **[American Canopy](american-canopy.md)**<br>
+    :lucide-user-round:{ title="Author" } Eric Rutkow
+
+-   :lucide-headphones:{ title="Audiobook" } **[Amusing Ourselves to Death](amusing-ourselves-to-death.md)**<br>
+    :lucide-user-round:{ title="Author" } Neil Postman
+
+-   :lucide-headphones:{ title="Audiobook" } **[Anatomy of a Breakthrough](anatomy-of-a-breakthrough.md)**<br>
+    :lucide-user-round:{ title="Author" } Adam Alter
+
+-   :lucide-headphones:{ title="Audiobook" } **[Can a Pope Be a Heretic?](can-a-pope-be-a-heretic.md)**<br>
+    :lucide-user-round:{ title="Author" } Arnaldo Xavier da Silveira
+
+-   :lucide-headphones:{ title="Audiobook" } **[Crime and Punishment](crime-and-punishment.md)**<br>
+    :lucide-user-round:{ title="Author" } Fyodor Dostoyevsky
+
+-   :lucide-headphones:{ title="Audiobook" } **[Cult Mentality](cult-mentality.md)**<br>
+    :lucide-user-round:{ title="Author" } Steven Hassan
+
+-   :lucide-headphones:{ title="Audiobook" } **[Darkness at Noon](darkness-at-noon.md)**<br>
+    :lucide-user-round:{ title="Author" } Arthur Koestler
+
+-   :lucide-headphones:{ title="Audiobook" } **[Devil in the Stack](devil-in-the-stack.md)**<br>
+    :lucide-user-round:{ title="Author" } Andrew Smith
+
+-   :lucide-headphones:{ title="Audiobook" } **[Dune](dune.md)**<br>
+    :lucide-user-round:{ title="Author" } Frank Herbert
+
+-   :lucide-headphones:{ title="Audiobook" } **[Endure](endure.md)**<br>
+    :lucide-user-round:{ title="Author" } Cameron Hanes
+
+-   :lucide-headphones:{ title="Audiobook" } **[Expert Political Judgment](expert-political-judgment.md)**<br>
+    :lucide-user-round:{ title="Author" } Philip E. Tetlock
+
+-   :lucide-headphones:{ title="Audiobook" } **[Extreme Ownership](extreme-ownership.md)**<br>
+    :lucide-user-round:{ title="Author" } Jocko Willink & Leif Babin
+
+-   :lucide-headphones:{ title="Audiobook" } **[Faith in Crisis](faith-in-crisis.md)**<br>
+    :lucide-user-round:{ title="Author" } Andrew Likoudis
+
+-   :lucide-headphones:{ title="Audiobook" } **[Food Forensics](food-forensics.md)**<br>
+    :lucide-user-round:{ title="Author" } Mike Adams
+
+-   :lucide-headphones:{ title="Audiobook" } **[George MacDonald](george-macdonald.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[Ghost Stories](ghost-stories.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry & others
+
+-   :lucide-headphones:{ title="Audiobook" } **[Good to Great](good-to-great.md)**<br>
+    :lucide-user-round:{ title="Author" } Jim Collins
+
+-   :lucide-headphones:{ title="Audiobook" } **[Goodbye Christopher Robin](goodbye-christopher-robin.md)**<br>
+    :lucide-user-round:{ title="Author" } Ann Thwaite
+
+-   :lucide-headphones:{ title="Audiobook" } **[Gulliver's Travels](gullivers-travels.md)**<br>
+    :lucide-user-round:{ title="Author" } Jonathan Swift
+
+-   :lucide-headphones:{ title="Audiobook" } **[His Last Bow](his-last-bow.md)**<br>
+    :lucide-user-round:{ title="Author" } Arthur Conan Doyle
+
+-   :lucide-headphones:{ title="Audiobook" } **[How to Do Things with Words](how-to-do-things-with-words.md)**<br>
+    :lucide-user-round:{ title="Author" } J. L. Austin
+
+-   :lucide-headphones:{ title="Audiobook" } **[How to Give Up Plastic](how-to-give-up-plastic.md)**<br>
+    :lucide-user-round:{ title="Author" } Will McCallum
+
+-   :lucide-headphones:{ title="Audiobook" } **[How to Live on 24 Hours a Day](how-to-live-on-24-hours-a-day.md)**<br>
+    :lucide-user-round:{ title="Author" } Arnold Bennett
+
+-   :lucide-headphones:{ title="Audiobook" } **[How to Pay Zero Taxes](how-to-pay-zero-taxes.md)**<br>
+    :lucide-user-round:{ title="Author" } Jeff A. Schnepper
+
+-   :lucide-headphones:{ title="Audiobook" } **[Into the Heart of Darkness](into-the-heart-of-darkness.md)**<br>
+    :lucide-user-round:{ title="Author" } Jacques Pauw
+
+-   :lucide-headphones:{ title="Audiobook" } **[Jaws](jaws.md)**<br>
+    :lucide-user-round:{ title="Author" } Peter Benchley
+
+-   :lucide-headphones:{ title="Audiobook" } **[Jesus and the Jewish Roots of Mary](jesus-and-the-jewish-roots-of-mary.md)**<br>
+    :lucide-user-round:{ title="Author" } Brant Pitre
+
+-   :lucide-headphones:{ title="Audiobook" } **[Jesus and the Jewish Roots of the Eucharist](jesus-and-the-jewish-roots-of-the-eucharist.md)**<br>
+    :lucide-user-round:{ title="Author" } Brant Pitre
+
+-   :lucide-headphones:{ title="Audiobook" } **[Journey to the Center of the Earth](journey-to-the-center-of-the-earth.md)**<br>
+    :lucide-user-round:{ title="Author" } Jules Verne
+
+-   :lucide-headphones:{ title="Audiobook" } **[Lead Yourself First](lead-yourself-first.md)**<br>
+    :lucide-user-round:{ title="Author" } Raymond M. Kethledge & Michael S. Erwin
+
+-   :lucide-headphones:{ title="Audiobook" } **[Les Misérables](les-miserables.md)**<br>
+    :lucide-user-round:{ title="Author" } Victor Hugo
+
+-   :lucide-headphones:{ title="Audiobook" } **[Letter to Artists](letter-to-artists.md)**<br>
+    :lucide-user-round:{ title="Author" } Pope St. John Paul II
+
+-   :lucide-headphones:{ title="Audiobook" } **[Lord of the Flies](lord-of-the-flies.md)**<br>
+    :lucide-user-round:{ title="Author" } William Golding
+
+-   :lucide-headphones:{ title="Audiobook" } **[Love & Responsibility](love-and-responsibility.md)**<br>
+    :lucide-user-round:{ title="Author" } Karol Wojtyla
+
+-   :lucide-headphones:{ title="Audiobook" } **[Lying](lying.md)**<br>
+    :lucide-user-round:{ title="Author" } Sam Harris
+
+-   :lucide-headphones:{ title="Audiobook" } **[Making History](making-history.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[Man's Search for Meaning](mans-search-for-meaning.md)**<br>
+    :lucide-user-round:{ title="Author" } Viktor E. Frankl
+
+-   :lucide-headphones:{ title="Audiobook" } **[Men and Women Are from Eden](men-and-women-are-from-eden.md)**<br>
+    :lucide-user-round:{ title="Author" } Mary Healy
+
+-   :lucide-headphones:{ title="Audiobook" } **[Merlin's Tour of the Universe](merlins-tour-of-the-universe.md)**<br>
+    :lucide-user-round:{ title="Author" } Neil deGrasse Tyson
+
+-   :lucide-headphones:{ title="Audiobook" } **[Miracles](miracles.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[Misbehaving](misbehaving.md)**<br>
+    :lucide-user-round:{ title="Author" } Richard H. Thaler
+
+-   :lucide-headphones:{ title="Audiobook" } **[Moab Is My Washpot](moab-is-my-washpot.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[More Fool Me](more-fool-me.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[More Money Than God](more-money-than-god.md)**<br>
+    :lucide-user-round:{ title="Author" } Sebastian Mallaby
+
+-   :lucide-headphones:{ title="Audiobook" } **[No Bad Parts](no-bad-parts.md)**<br>
+    :lucide-user-round:{ title="Author" } Richard C. Schwartz
+
+-   :lucide-headphones:{ title="Audiobook" } **[On Liturgical Theology](on-liturgical-theology.md)**<br>
+    :lucide-user-round:{ title="Author" } Aidan Kavanagh
+
+-   :lucide-headphones:{ title="Audiobook" } **[On Writing (and Writers)](on-writing-and-writers.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[One Flew Over the Cuckoo's Nest](one-flew-over-the-cuckoos-nest.md)**<br>
+    :lucide-user-round:{ title="Author" } Ken Kesey
+
+-   :lucide-headphones:{ title="Audiobook" } **[Paperweight, Volume 1](paperweight-volume-1.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[Paperweight, Volume 2](paperweight-volume-2.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[Perelandra](perelandra.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[Red Rising](red-rising.md)**<br>
+    :lucide-user-round:{ title="Author" } Pierce Brown
+
+-   :lucide-headphones:{ title="Audiobook" } **[Start with Why](start-with-why.md)**<br>
+    :lucide-user-round:{ title="Author" } Simon Sinek
+
+-   :lucide-headphones:{ title="Audiobook" } **[Stephen Fry in America](stephen-fry-in-america.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[Superforecasting](superforecasting.md)**<br>
+    :lucide-user-round:{ title="Author" } Philip E. Tetlock & Dan Gardner
+
+-   :lucide-headphones:{ title="Audiobook" } **[Surrounded by Idiots](surrounded-by-idiots.md)**<br>
+    :lucide-user-round:{ title="Author" } Thomas Erikson
+
+-   :lucide-headphones:{ title="Audiobook" } **[Teaching with Authority](teaching-with-authority.md)**<br>
+    :lucide-user-round:{ title="Author" } Jimmy Akin
+
+-   :lucide-headphones:{ title="Audiobook" } **[That Hideous Strength](that-hideous-strength.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[The 7 Habits of Highly Effective People](the-7-habits-of-highly-effective-people.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen R. Covey
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Abolition of Man](the-abolition-of-man.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Almanack of Naval Ravikant](the-almanack-of-naval-ravikant.md)**<br>
+    :lucide-user-round:{ title="Author" } Eric Jorgenson
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Anxious Generation](the-anxious-generation.md)**<br>
+    :lucide-user-round:{ title="Author" } Jonathan Haidt
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Big Burn](the-big-burn.md)**<br>
+    :lucide-user-round:{ title="Author" } Timothy Egan
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Book That Made Your World](the-book-that-made-your-world.md)**<br>
+    :lucide-user-round:{ title="Author" } Vishal Mangalwadi
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Botany of Desire](the-botany-of-desire.md)**<br>
+    :lucide-user-round:{ title="Author" } Michael Pollan
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Case-Book of Sherlock Holmes](the-case-book-of-sherlock-holmes.md)**<br>
+    :lucide-user-round:{ title="Author" } Arthur Conan Doyle
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Catcher in the Rye](the-catcher-in-the-rye.md)**<br>
+    :lucide-user-round:{ title="Author" } J. D. Salinger
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Count of Monte Cristo](the-count-of-monte-cristo.md)**<br>
+    :lucide-user-round:{ title="Author" } Alexandre Dumas
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Dutch House](the-dutch-house.md)**<br>
+    :lucide-user-round:{ title="Author" } Ann Patchett
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Eternal Frontier](the-eternal-frontier.md)**<br>
+    :lucide-user-round:{ title="Author" } Tim Flannery
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Fry Chronicles](the-fry-chronicles.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Grapes of Wrath](the-grapes-of-wrath.md)**<br>
+    :lucide-user-round:{ title="Author" } John Steinbeck
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Great Divorce](the-great-divorce.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Great Gatsby](the-great-gatsby.md)**<br>
+    :lucide-user-round:{ title="Author" } F. Scott Fitzgerald
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Gulag Archipelago](the-gulag-archipelago.md)**<br>
+    :lucide-user-round:{ title="Author" } Aleksandr Solzhenitsyn
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Hippopotamus](the-hippopotamus.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Hitchhiker's Guide to the Galaxy](the-hitchhikers-guide-to-the-galaxy.md)**<br>
+    :lucide-user-round:{ title="Author" } Douglas Adams
+
+-   :lucide-headphones:{ title="Audiobook" } **[The House of Morgan](the-house-of-morgan.md)**<br>
+    :lucide-user-round:{ title="Author" } Ron Chernow
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Intellectual Life](the-intellectual-life.md)**<br>
+    :lucide-user-round:{ title="Author" } A. G. Sertillanges
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Magic of Thinking Big](the-magic-of-thinking-big.md)**<br>
+    :lucide-user-round:{ title="Author" } David J. Schwartz
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Meaning of Tradition](the-meaning-of-tradition.md)**<br>
+    :lucide-user-round:{ title="Author" } Yves Congar
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Ode Less Travelled](the-ode-less-travelled.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Power and the Glory](the-power-and-the-glory.md)**<br>
+    :lucide-user-round:{ title="Author" } Graham Greene
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Power of Silence](the-power-of-silence.md)**<br>
+    :lucide-user-round:{ title="Author" } Robert Cardinal Sarah
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Problem of Pain](the-problem-of-pain.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Reed of God](the-reed-of-god.md)**<br>
+    :lucide-user-round:{ title="Author" } Caryll Houselander
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Return of Sherlock Holmes](the-return-of-sherlock-holmes.md)**<br>
+    :lucide-user-round:{ title="Author" } Arthur Conan Doyle
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Sacrament of the Present Moment](the-sacrament-of-the-present-moment.md)**<br>
+    :lucide-user-round:{ title="Author" } Jean-Pierre de Caussade
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Seven Principles for Making Marriage Work](the-seven-principles-for-making-marriage-work.md)**<br>
+    :lucide-user-round:{ title="Author" } John M. Gottman
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Seven Storey Mountain](the-seven-storey-mountain.md)**<br>
+    :lucide-user-round:{ title="Author" } Thomas Merton
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Stars' Tennis Balls](the-stars-tennis-balls.md)**<br>
+    :lucide-user-round:{ title="Author" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Success Equation](the-success-equation.md)**<br>
+    :lucide-user-round:{ title="Author" } Michael J. Mauboussin
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Surprising Rebirth of Belief in God](the-surprising-rebirth-of-belief-in-god.md)**<br>
+    :lucide-user-round:{ title="Author" } Justin Brierley
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Tattooist of Auschwitz](the-tattooist-of-auschwitz.md)**<br>
+    :lucide-user-round:{ title="Author" } Heather Morris
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Three Musketeers](the-three-musketeers.md)**<br>
+    :lucide-user-round:{ title="Author" } Alexandre Dumas
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Valley of Fear](the-valley-of-fear.md)**<br>
+    :lucide-user-round:{ title="Author" } Arthur Conan Doyle
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Weight of Glory](the-weight-of-glory.md)**<br>
+    :lucide-user-round:{ title="Author" } C. S. Lewis
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Whole-Brain Child](the-whole-brain-child.md)**<br>
+    :lucide-user-round:{ title="Author" } Daniel J. Siegel & Tina Payne Bryson
+
+-   :lucide-headphones:{ title="Audiobook" } **[Theology and Sanity](theology-and-sanity.md)**<br>
+    :lucide-user-round:{ title="Author" } Frank Sheed
+
+-   :lucide-headphones:{ title="Audiobook" } **[Three Men in a Boat](three-men-in-a-boat.md)**<br>
+    :lucide-user-round:{ title="Author" } Jerome K. Jerome
+
+-   :lucide-headphones:{ title="Audiobook" } **[Treasure Island](treasure-island.md)**<br>
+    :lucide-user-round:{ title="Author" } Robert Louis Stevenson
+
+-   :lucide-headphones:{ title="Audiobook" } **[Walden](walden.md)**<br>
+    :lucide-user-round:{ title="Author" } Henry David Thoreau
+
+-   :lucide-headphones:{ title="Audiobook" } **[Watership Down](watership-down.md)**<br>
+    :lucide-user-round:{ title="Author" } Richard Adams
+
+-   :lucide-headphones:{ title="Audiobook" } **[We Who Wrestle with God](we-who-wrestle-with-god.md)**<br>
+    :lucide-user-round:{ title="Author" } Jordan B. Peterson
+
+-   :lucide-headphones:{ title="Audiobook" } **[What Every BODY Is Saying](what-every-body-is-saying.md)**<br>
+    :lucide-user-round:{ title="Author" } Joe Navarro
+
+-   :lucide-headphones:{ title="Audiobook" } **[Wild at Heart](wild-at-heart.md)**<br>
+    :lucide-user-round:{ title="Author" } John Eldredge
+
+-   :lucide-headphones:{ title="Audiobook" } **[You Can Be a Stock Market Genius](you-can-be-a-stock-market-genius.md)**<br>
+    :lucide-user-round:{ title="Author" } Joel Greenblatt
+
+</div>

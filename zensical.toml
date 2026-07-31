@@ -4,6 +4,7 @@
 site_name = "Noah's Shelf"
 site_description = "A reading journal — books I'm reading, books I've finished, and what I thought of them."
 copyright = "© 2026 Noah Weidig"
+extra_css = ["stylesheets/extra.css"]
 
 nav = [
   { "Currently reading" = [
@@ -248,11 +249,47 @@ nav = [
     { "Wild at Heart" = "wild-at-heart.md" },
     { "You Can Be a Stock Market Genius" = "you-can-be-a-stock-market-genius.md" },
   ] },
-  "tags/index.md",
 ]
 
 [project.extra]
 generator = false
+
+# The shelf's whole tag vocabulary, and the single place it is defined:
+# `scripts/shelves.py` reads this table to validate every book's `tags:` and to
+# regenerate the tag checkboxes in `.github/ISSUE_TEMPLATE/add-book.yml`, and
+# Zensical reads it to pick each chip's icon from `[project.theme.icon.tag]`
+# below. Adding a tag means adding it here, with an icon, and nowhere else.
+[project.extra.tags]
+Adventure = "adventure"
+Biography = "biography"
+Business = "business"
+Classics = "classics"
+Communication = "communication"
+Economics = "economics"
+Faith = "faith"
+Fantasy = "fantasy"
+Food = "food"
+Health = "health"
+History = "history"
+Humor = "humor"
+"Literary fiction" = "literary"
+Memoir = "memoir"
+Mystery = "mystery"
+Mythology = "mythology"
+Nature = "nature"
+Philosophy = "philosophy"
+Politics = "politics"
+Productivity = "productivity"
+Psychology = "psychology"
+Science = "science"
+"Science fiction" = "scifi"
+"Self-improvement" = "self-improvement"
+Series = "series"
+"Short stories" = "short-stories"
+Spirituality = "spirituality"
+Technology = "technology"
+Theology = "theology"
+Writing = "writing"
 
 [project.theme]
 language = "en"
@@ -282,6 +319,42 @@ menu = "lucide/menu"
 search = "lucide/search"
 close = "lucide/x"
 top = "lucide/arrow-up"
+
+# One icon per tag identifier from `[project.extra.tags]`. Zensical inlines
+# these as the `--md-tag-icon` mask on each chip; `default` covers anything
+# without its own entry.
+[project.theme.icon.tag]
+default = "lucide/hash"
+adventure = "lucide/compass"
+biography = "lucide/users-round"
+business = "lucide/briefcase"
+classics = "lucide/scroll-text"
+communication = "lucide/messages-square"
+economics = "lucide/chart-line"
+faith = "lucide/church"
+fantasy = "lucide/wand-sparkles"
+food = "lucide/utensils-crossed"
+health = "lucide/heart-pulse"
+history = "lucide/landmark"
+humor = "lucide/laugh"
+literary = "lucide/feather"
+memoir = "lucide/user-round"
+mystery = "lucide/search-check"
+mythology = "lucide/venetian-mask"
+nature = "lucide/trees"
+philosophy = "lucide/lightbulb"
+politics = "lucide/gavel"
+productivity = "lucide/target"
+psychology = "lucide/brain"
+science = "lucide/flask-conical"
+scifi = "lucide/rocket"
+self-improvement = "lucide/sprout"
+series = "lucide/layers"
+short-stories = "lucide/files"
+spirituality = "lucide/sparkles"
+technology = "lucide/cpu"
+theology = "lucide/cross"
+writing = "lucide/pen-tool"
 
 [[project.theme.palette]]
 scheme = "default"

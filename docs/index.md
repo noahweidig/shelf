@@ -1,13 +1,59 @@
 ---
 title: "Currently reading"
 description: "Books I'm reading right now."
+icon: lucide/book-marked
 ---
 
 # :lucide-book-marked: Currently reading
 
-The 4 books I have open right now. 106 finished, 113 waiting, 83 of them listened to rather than read.
+<div class="grid cards" markdown>
 
--   :lucide-headphones: [Sherlock Holmes](sherlock-holmes.md "by Arthur Conan Doyle · read by Stephen Fry · Audiobook")
--   :lucide-headphones: [The Fellowship of the Ring](the-fellowship-of-the-ring.md "by J. R. R. Tolkien · read by Andy Serkis · Audiobook")
--   :lucide-headphones: [The Night Circus](the-night-circus.md "by Erin Morgenstern · read by Jim Dale · Audiobook")
--   :lucide-headphones: [The Odyssey](the-odyssey.md "by Homer, translated by Stephen Fry · read by Stephen Fry · Audiobook")
+-   :lucide-book-marked:{ title="On the nightstand" } **4** reading now
+
+-   :lucide-book:{ title="Finished" } **106** read
+
+-   :lucide-book-plus:{ title="Waiting on the shelf" } **113** to read
+
+-   :lucide-headphones:{ title="Listened to rather than read" } **83** listened to
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :lucide-headphones:{ title="Audiobook" } **[Sherlock Holmes](sherlock-holmes.md)**
+
+    ---
+
+    *The Definitive Collection*
+
+    :lucide-user-round:{ title="Author" } Arthur Conan Doyle
+
+    :lucide-headphones:{ title="Audiobook, narrated by" } Stephen Fry
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Fellowship of the Ring](the-fellowship-of-the-ring.md)**
+
+    ---
+
+    *The Lord of the Rings, Book One*
+
+    :lucide-user-round:{ title="Author" } J. R. R. Tolkien
+
+    :lucide-headphones:{ title="Audiobook, narrated by" } Andy Serkis
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Night Circus](the-night-circus.md)**
+
+    ---
+
+    :lucide-user-round:{ title="Author" } Erin Morgenstern
+
+    :lucide-headphones:{ title="Audiobook, narrated by" } Jim Dale
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Odyssey](the-odyssey.md)**
+
+    ---
+
+    :lucide-user-round:{ title="Author" } Homer, translated by Stephen Fry
+
+    :lucide-headphones:{ title="Audiobook, narrated by" } Stephen Fry
+
+</div>

@@ -1,0 +1,11 @@
+/* The only hand-written CSS on the site. Everything else — the card grids on
+   the shelf pages, the metadata cards, the tag chips — is Zensical's own. */
+
+/* Tag chips are links here, because `overrides/partials/tags.html` points them
+   at the site search until Zensical builds tag listings itself. The theme
+   styles `.md-tag[href]` for that eventual case but never clears the underline
+   and link colour every other `.md-typeset a` gets, so a chip would read as a
+   sentence link rather than a chip. Its own hover state still takes over. */
+.md-typeset .md-tags .md-tag[href] {
+  text-decoration: none;
+}
