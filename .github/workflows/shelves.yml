@@ -6,10 +6,18 @@ on:
     paths:
       - 'docs/**.md'
       - 'scripts/shelves.py'
+      # The tag vocabulary lives here, and the nav table is written back to it.
+      - 'zensical.toml'
+      # Its tag checkboxes are generated from that vocabulary.
+      - '.github/ISSUE_TEMPLATE/add-book.yml'
   pull_request:
     paths:
       - 'docs/**.md'
       - 'scripts/shelves.py'
+      # The tag vocabulary lives here, and the nav table is written back to it.
+      - 'zensical.toml'
+      # Its tag checkboxes are generated from that vocabulary.
+      - '.github/ISSUE_TEMPLATE/add-book.yml'
   workflow_dispatch:
 
 permissions:
