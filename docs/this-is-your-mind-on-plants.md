@@ -1,10 +1,21 @@
 ---
 title: "This Is Your Mind on Plants"
+author: "Michael Pollan"
+format: physical
+status: read
+read_years: [2022]
 ---
 
 # :lucide-book: This Is Your Mind on Plants
 
-:lucide-user: **Michael Pollan** · :lucide-book-open: Physical · :lucide-book: Read in 2022
+Author
+:   Michael Pollan
+
+Format
+:   :lucide-book-open: Physical
+
+Status
+:   :lucide-book: Read in 2022
 
 ---
 

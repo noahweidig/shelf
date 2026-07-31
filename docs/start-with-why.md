@@ -1,10 +1,21 @@
 ---
 title: "Start with Why"
+author: "Simon Sinek"
+narrator: "Simon Sinek"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Start with Why
 
-:lucide-user: **Simon Sinek** · :lucide-headphones: Audiobook · :lucide-mic: Read by Simon Sinek · :lucide-book-plus: Want to read
+Author
+:   Simon Sinek
+
+Format
+:   :lucide-headphones: Audiobook — read by Simon Sinek
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

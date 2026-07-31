@@ -1,10 +1,21 @@
 ---
 title: "Crime and Punishment"
+author: "Fyodor Dostoyevsky"
+narrator: "George Guidall"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Crime and Punishment
 
-:lucide-user: **Fyodor Dostoyevsky** · :lucide-headphones: Audiobook · :lucide-mic: Read by George Guidall · :lucide-book-plus: Want to read
+Author
+:   Fyodor Dostoyevsky
+
+Format
+:   :lucide-headphones: Audiobook — read by George Guidall
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,21 @@
 ---
 title: "Darkness at Noon"
+author: "Arthur Koestler"
+narrator: "Frank Muller"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Darkness at Noon
 
-:lucide-user: **Arthur Koestler** · :lucide-headphones: Audiobook · :lucide-mic: Read by Frank Muller · :lucide-book-plus: Want to read
+Author
+:   Arthur Koestler
+
+Format
+:   :lucide-headphones: Audiobook — read by Frank Muller
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

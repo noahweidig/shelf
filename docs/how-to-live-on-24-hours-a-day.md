@@ -1,10 +1,21 @@
 ---
 title: "How to Live on 24 Hours a Day"
+author: "Arnold Bennett"
+narrator: "Eric Brooks"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: How to Live on 24 Hours a Day
 
-:lucide-user: **Arnold Bennett** · :lucide-headphones: Audiobook · :lucide-mic: Read by Eric Brooks · :lucide-book-plus: Want to read
+Author
+:   Arnold Bennett
+
+Format
+:   :lucide-headphones: Audiobook — read by Eric Brooks
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

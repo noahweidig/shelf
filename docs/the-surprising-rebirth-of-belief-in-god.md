@@ -1,10 +1,21 @@
 ---
 title: "The Surprising Rebirth of Belief in God"
+author: "Justin Brierley"
+narrator: "Justin Brierley"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Surprising Rebirth of Belief in God
 
-:lucide-user: **Justin Brierley** · :lucide-headphones: Audiobook · :lucide-mic: Read by Justin Brierley · :lucide-book-plus: Want to read
+Author
+:   Justin Brierley
+
+Format
+:   :lucide-headphones: Audiobook — read by Justin Brierley
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

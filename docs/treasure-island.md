@@ -1,10 +1,21 @@
 ---
 title: "Treasure Island"
+author: "Robert Louis Stevenson"
+narrator: "Kevin McNally"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Treasure Island
 
-:lucide-user: **Robert Louis Stevenson** · :lucide-headphones: Audiobook · :lucide-mic: Read by Kevin McNally · :lucide-book-plus: Want to read
+Author
+:   Robert Louis Stevenson
+
+Format
+:   :lucide-headphones: Audiobook — read by Kevin McNally
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,22 @@
 ---
 title: "Of Mice and Men"
+author: "John Steinbeck"
+narrator: "Gary Sinise"
+format: audiobook
+status: read
+read_years: [2026]
 ---
 
 # :lucide-book: Of Mice and Men
 
-:lucide-user: **John Steinbeck** · :lucide-headphones: Audiobook · :lucide-mic: Read by Gary Sinise · :lucide-book: Read in 2026
+Author
+:   John Steinbeck
+
+Format
+:   :lucide-headphones: Audiobook — read by Gary Sinise
+
+Status
+:   :lucide-book: Read in 2026
 
 ---
 

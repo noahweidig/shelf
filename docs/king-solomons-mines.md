@@ -1,10 +1,22 @@
 ---
 title: "King Solomon's Mines"
+author: "H. Rider Haggard"
+narrator: "Toby Stephens"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: King Solomon's Mines
 
-:lucide-user: **H. Rider Haggard** · :lucide-headphones: Audiobook · :lucide-mic: Read by Toby Stephens · :lucide-book: Read in 2025
+Author
+:   H. Rider Haggard
+
+Format
+:   :lucide-headphones: Audiobook — read by Toby Stephens
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

@@ -1,10 +1,21 @@
 ---
 title: "The Whole-Brain Child"
+author: "Daniel J. Siegel & Tina Payne Bryson"
+narrator: "Daniel J. Siegel & Tina Payne Bryson"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Whole-Brain Child
 
-:lucide-user: **Daniel J. Siegel & Tina Payne Bryson** · :lucide-headphones: Audiobook · :lucide-mic: Read by Daniel J. Siegel & Tina Payne Bryson · :lucide-book-plus: Want to read
+Author
+:   Daniel J. Siegel & Tina Payne Bryson
+
+Format
+:   :lucide-headphones: Audiobook — read by Daniel J. Siegel & Tina Payne Bryson
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

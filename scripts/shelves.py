@@ -1,16 +1,26 @@
 #!/usr/bin/env python3
-"""Rebuild the shelf pages and the nav from the book pages themselves.
+"""Rebuild every generated page from the book pages' own frontmatter.
 
-Every book in `docs/` carries its own state on its metadata line:
+Every book in `docs/` carries its state as frontmatter fields, not prose:
 
-    :lucide-user: **Author** · :lucide-headphones: Audiobook ·
-    :lucide-mic: Read by Narrator · :lucide-book: Read in 2026, 2024
+    ---
+    title: "Atomic Habits"
+    description: "An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+    author: "James Clear"
+    narrator: "James Clear"
+    format: audiobook
+    status: read
+    read_years: [2025]
+    rating: 5
+    tags: [nonfiction, habits]
+    ---
 
-This script reads all of them and rewrites the shelves that list them —
-`index.md` (currently reading), `docs/previously-read/index.md` (grouped
-by a `## <year>` heading per year), `want-to-read.md` — plus the `nav`
-table in `zensical.toml`. So marking a book as read is a one-line edit to
-that book's page: everything else follows from it.
+This script reads all of them and rewrites everything that lists or displays
+them: each book page's own heading/metadata block, the shelf pages
+(`index.md` "Currently reading", `want-to-read.md`, `previously-read/index.md`),
+the tags index (`docs/tags/index.md`), and the `nav` table in
+`zensical.toml`. So marking a book as read is a frontmatter edit to that
+book's own page: everything else follows from it.
 
 Usage: python3 scripts/shelves.py [--check]
 """
@@ -27,6 +37,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 PREVIOUSLY_READ = DOCS / "previously-read"
+TAGS = DOCS / "tags"
 CONFIG = ROOT / "zensical.toml"
 
 SHELF_PAGES = {"index.md", "want-to-read.md"}
@@ -34,15 +45,19 @@ SHELF_PAGES = {"index.md", "want-to-read.md"}
 READING = "reading"
 READ = "read"
 WANT = "want"
+STATUSES = {READING, READ, WANT}
 
-ICON = {READING: ":lucide-book-marked:", READ: ":lucide-book:", WANT: ":lucide-book-plus:"}
+STATUS_ICON = {READING: ":lucide-book-marked:", READ: ":lucide-book:", WANT: ":lucide-book-plus:"}
+STATUS_LABEL = {READING: "Reading", WANT: "Want to read"}
+
+FORMAT_ICON = {"audiobook": ":lucide-headphones:", "physical": ":lucide-book-open:"}
+FORMAT_LABEL = {"audiobook": "Audiobook", "physical": "Physical"}
 
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
-# The metadata line may be wrapped in the source, as long as each wrapped line
-# ends with the `·` separator — markdown joins them back into one line.
-META_LINE = re.compile(r"^:lucide-user: .*?(?<!·)$", re.MULTILINE | re.DOTALL)
+SEPARATOR = re.compile(r"\n---\n")
 MARKDOWN_SPECIAL = re.compile(r"([*_\[\]`])")
 FIELD = re.compile(r"^(\w+):\s*(.*?)\s*$")
+TAG_SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 
 @dataclass
@@ -52,11 +67,12 @@ class Book:
     subtitle: str
     author: str
     narrator: str
-    format: str
+    format: str  # "audiobook" | "physical" | ""
     status: str
     years: list[int]
-    rating: str = ""
-    sources: list[str] = field(default_factory=list)
+    rating: int = 0
+    tags: list[str] = field(default_factory=list)
+    notes: str = "*No thoughts written yet.*\n"
 
     @property
     def sort_key(self) -> str:
@@ -64,17 +80,16 @@ class Book:
 
     @property
     def format_icon(self) -> str:
-        return self.format.split(" ", 1)[0] if self.format else ""
+        return FORMAT_ICON.get(self.format, "")
 
     @property
     def format_label(self) -> str:
-        parts = self.format.split(" ", 1)
-        return parts[1].strip() if len(parts) > 1 else ""
+        return FORMAT_LABEL.get(self.format, "")
 
-    @property
-    def rating_plain(self) -> str:
-        match = re.search(r"(\d/5)\s*$", self.rating)
-        return match.group(1) if match else ""
+    def status_text(self) -> str:
+        if self.status == READ:
+            return "Read in " + ", ".join(str(year) for year in self.years)
+        return STATUS_LABEL[self.status]
 
     def tooltip(self) -> str:
         parts = [f"by {self.author}"]
@@ -82,22 +97,26 @@ class Book:
             parts[0] += f" · read by {self.narrator}"
         if self.format_label:
             parts.append(self.format_label)
-        if self.rating_plain:
-            parts.append(self.rating_plain)
+        if self.rating:
+            parts.append(f"{self.rating}/5")
         if self.status == READ:
-            parts.append("Read in " + ", ".join(str(year) for year in self.years))
+            parts.append(self.status_text())
         return " · ".join(parts).replace('"', "'")
 
     def link(self, prefix: str = "") -> str:
         """Render the book as one line: icon, title link, tooltip."""
-        icon = self.format_icon or ICON[self.status]
+        icon = self.format_icon or STATUS_ICON[self.status]
         title = markdown_escape(self.title)
         return f'-   {icon} [{title}]({prefix}{self.slug}.md "{self.tooltip()}")'
 
 
 def markdown_escape(value: str) -> str:
-    """Keep a title's punctuation literal inside the bold link text of a card."""
+    """Keep punctuation literal inside heading/link text that markdown would parse."""
     return MARKDOWN_SPECIAL.sub(r"\\\1", value)
+
+
+def tag_slug(tag: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", tag.lower()).strip("-")
 
 
 def unquote(value: str) -> str:
@@ -112,6 +131,17 @@ def unquote(value: str) -> str:
     return value
 
 
+def parse_list(value: str) -> list[str]:
+    """Read a flow-style YAML list: `[a, "b c", d]`. Empty for `[]` or a bare scalar."""
+    inner = value.strip()
+    if not (inner.startswith("[") and inner.endswith("]")):
+        return []
+    inner = inner[1:-1].strip()
+    if not inner:
+        return []
+    return [unquote(item.strip()) for item in inner.split(",")]
+
+
 def fail(message: str) -> None:
     print(f"error: {message}", file=sys.stderr)
     sys.exit(1)
@@ -120,15 +150,16 @@ def fail(message: str) -> None:
 def book_pages() -> list[Path]:
     """Every page in `docs/` that is a book — one URL per book, at the site root.
 
-    The shelves themselves live alongside them, so a page counts as a book when
-    it carries a `:lucide-user:` metadata line.
+    A page counts as a book when its frontmatter has a `status` field.
     """
-    return [
-        path
-        for path in sorted(DOCS.glob("*.md"))
-        if path.name not in SHELF_PAGES
-        and META_LINE.search(path.read_text(encoding="utf-8"))
-    ]
+    pages = []
+    for path in sorted(DOCS.glob("*.md")):
+        if path.name in SHELF_PAGES:
+            continue
+        frontmatter = FRONTMATTER.match(path.read_text(encoding="utf-8"))
+        if frontmatter and re.search(r"^status:", frontmatter.group(1), re.MULTILINE):
+            pages.append(path)
+    return pages
 
 
 def parse_book(path: Path) -> Book:
@@ -137,59 +168,116 @@ def parse_book(path: Path) -> Book:
     frontmatter = FRONTMATTER.match(text)
     if not frontmatter:
         fail(f"{path.relative_to(ROOT)}: missing frontmatter")
-    meta: dict[str, str] = {}
+
+    meta: dict[str, str | list[str]] = {}
     for line in frontmatter.group(1).splitlines():
         matched = FIELD.match(line)
-        if matched:
-            meta[matched.group(1)] = unquote(matched.group(2))
+        if not matched:
+            continue
+        key, raw_value = matched.group(1), matched.group(2)
+        meta[key] = parse_list(raw_value) if raw_value.startswith("[") else unquote(raw_value)
+
+    rel = path.relative_to(ROOT)
     if "title" not in meta:
-        fail(f"{path.relative_to(ROOT)}: frontmatter has no title")
+        fail(f"{rel}: frontmatter has no title")
 
-    meta_line = META_LINE.search(text)
-    if not meta_line:
-        fail(f"{path.relative_to(ROOT)}: no `:lucide-user:` metadata line")
+    status = meta.get("status", "")
+    if status not in STATUSES:
+        fail(f"{rel}: status must be one of {sorted(STATUSES)}, got {status!r}")
 
-    author = narrator = book_format = rating = ""
-    status = ""
-    years: list[int] = []
-    joined = " ".join(meta_line.group(0).split())
-    for part in (p.strip() for p in joined.split(" · ")):
-        if part.startswith(":lucide-user:"):
-            author = part.removeprefix(":lucide-user:").strip().strip("*")
-        elif part.startswith(":lucide-mic:"):
-            narrator = part.removeprefix(":lucide-mic: Read by").strip()
-        elif part.startswith((":lucide-headphones:", ":lucide-book-open:")):
-            book_format = part
-        elif part.startswith(":lucide-star:"):
-            rating = part
-        elif part.startswith(":lucide-book-marked:"):
-            status = READING
-        elif part.startswith(":lucide-book-plus:"):
-            status = WANT
-        elif part.startswith(":lucide-book:"):
-            status = READ
-            years = sorted(
-                (int(y) for y in re.findall(r"\b(\d{4})\b", part)), reverse=True
-            )
-
-    if not status:
-        fail(f"{path.relative_to(ROOT)}: metadata line has no shelf marker")
-    if status == READ and not years:
-        fail(f"{path.relative_to(ROOT)}: marked read but names no year")
+    author = meta.get("author", "")
     if not author:
-        fail(f"{path.relative_to(ROOT)}: metadata line has no author")
+        fail(f"{rel}: frontmatter has no author")
+
+    book_format = meta.get("format", "")
+    if book_format and book_format not in FORMAT_ICON:
+        fail(f"{rel}: format must be one of {sorted(FORMAT_ICON)}, got {book_format!r}")
+
+    years_raw = meta.get("read_years", [])
+    years = sorted((int(y) for y in years_raw), reverse=True) if years_raw else []
+    if status == READ and not years:
+        fail(f"{rel}: status is read but read_years is empty")
+    if status != READ and years:
+        fail(f"{rel}: read_years is set but status is not read")
+
+    rating_raw = meta.get("rating", "")
+    rating = int(rating_raw) if rating_raw else 0
+    if rating and not 1 <= rating <= 5:
+        fail(f"{rel}: rating must be between 1 and 5, got {rating}")
+
+    tags = meta.get("tags", []) if isinstance(meta.get("tags", []), list) else []
+    for tag in tags:
+        if not TAG_SLUG.match(tag):
+            fail(f"{rel}: tag {tag!r} must be lowercase words separated by hyphens")
+
+    body = text[frontmatter.end():]
+    separator = SEPARATOR.search(body)
+    notes = body[separator.end():].lstrip("\n") if separator else "*No thoughts written yet.*\n"
 
     return Book(
         slug=path.stem,
         title=meta["title"],
         subtitle=meta.get("description", ""),
         author=author,
-        narrator=narrator,
+        narrator=meta.get("narrator", ""),
         format=book_format,
         status=status,
         years=years,
         rating=rating,
+        tags=sorted(tags),
+        notes=notes,
     )
+
+
+def render_book_page(book: Book) -> str:
+    """Rebuild a book's own page: frontmatter, then a generated heading and
+    metadata block, then the notes the reader actually wrote, untouched.
+    """
+    fm = ['---', f'title: "{escape(book.title)}"']
+    if book.subtitle:
+        fm.append(f'description: "{escape(book.subtitle)}"')
+    fm.append(f'author: "{escape(book.author)}"')
+    if book.narrator:
+        fm.append(f'narrator: "{escape(book.narrator)}"')
+    if book.format:
+        fm.append(f'format: {book.format}')
+    fm.append(f'status: {book.status}')
+    if book.status == READ:
+        fm.append('read_years: [' + ", ".join(str(y) for y in book.years) + ']')
+    if book.rating:
+        fm.append(f'rating: {book.rating}')
+    if book.tags:
+        fm.append('tags: [' + ", ".join(book.tags) + ']')
+    fm.append('---')
+
+    icon = STATUS_ICON[book.status]
+    title = markdown_escape(book.title)
+    lines = fm + ['', f'# {icon} {title}']
+    if book.subtitle:
+        lines += ['', f'*{markdown_escape(book.subtitle)}*']
+
+    lines += ['', 'Author', f':   {markdown_escape(book.author)}']
+
+    if book.format:
+        format_line = f'{book.format_icon} {book.format_label}'
+        if book.narrator:
+            format_line += f' — read by {markdown_escape(book.narrator)}'
+        lines += ['', 'Format', f':   {format_line}']
+
+    lines += ['', 'Status', f':   {icon} {book.status_text()}']
+
+    if book.rating:
+        stars = " ".join([":lucide-star:"] * book.rating)
+        lines += ['', 'Rating', f':   {stars} ({book.rating}/5)']
+
+    if book.tags:
+        chips = " · ".join(
+            f'[{tag}](tags/index.md#{tag_slug(tag)})' for tag in book.tags
+        )
+        lines += ['', 'Tags', f':   {chips}']
+
+    lines += ['', '---', '', book.notes.rstrip("\n") + "\n"]
+    return "\n".join(lines)
 
 
 def page(frontmatter_title: str, description: str, heading: str, intro: str,
@@ -220,7 +308,7 @@ def render_pages(books: list[Book]) -> dict[Path, str]:
     waiting = sorted((b for b in books if b.status == WANT), key=lambda b: b.sort_key)
     years = sorted({year for book in finished for year in book.years}, reverse=True)
 
-    listened = sum(1 for b in finished if b.format.startswith(":lucide-headphones:"))
+    listened = sum(1 for b in finished if b.format == "audiobook")
     pages = {
         DOCS / "index.md": page(
             "Currently reading",
@@ -239,19 +327,23 @@ def render_pages(books: list[Book]) -> dict[Path, str]:
             waiting,
         ),
         PREVIOUSLY_READ / "index.md": previously_read_index(finished, years),
+        TAGS / "index.md": tags_index(books),
     }
+    for book in books:
+        book_path = DOCS / f"{book.slug}.md"
+        pages[book_path] = render_book_page(book)
     return pages
 
 
 def breakdown(books: list[Book]) -> str:
     """How a year's books were read: `:lucide-headphones: 14 · :lucide-book-open: 6`."""
     counts = {
-        ":lucide-headphones: %d listened to": ":lucide-headphones:",
-        ":lucide-book-open: %d in print": ":lucide-book-open:",
+        ":lucide-headphones: %d listened to": "audiobook",
+        ":lucide-book-open: %d in print": "physical",
     }
     parts = []
-    for template, icon in counts.items():
-        count = sum(1 for book in books if book.format.startswith(icon))
+    for template, book_format in counts.items():
+        count = sum(1 for book in books if book.format == book_format)
         if count:
             parts.append(template % count)
     return " · ".join(parts)
@@ -287,6 +379,34 @@ def previously_read_index(finished: list[Book], years: list[int]) -> str:
     )
 
 
+def tags_index(books: list[Book]) -> str:
+    """The Tags page: every tag in use, grouped alphabetically, linking its books."""
+    by_tag: dict[str, list[Book]] = {}
+    for book in books:
+        for tag in book.tags:
+            by_tag.setdefault(tag, []).append(book)
+
+    sections = []
+    for tag in sorted(by_tag):
+        of_tag = sorted(by_tag[tag], key=lambda b: b.sort_key)
+        lines = [f'## {tag} {{: #{tag_slug(tag)} }}', "", f"{plural(len(of_tag), 'book', 'books')}", ""]
+        lines += [book.link(prefix="../") for book in of_tag]
+        sections.append("\n".join(lines))
+
+    body = "\n\n".join(sections) if sections else "*No tags yet.*\n"
+    return (
+        "---\n"
+        'title: "Tags"\n'
+        'description: "Every book, grouped by tag."\n'
+        "---\n"
+        "\n"
+        "# :lucide-tag: Tags\n"
+        "\n"
+        f"{plural(len(by_tag), 'tag', 'tags')} across the shelf.\n"
+        "\n" + body + "\n"
+    )
+
+
 def render_nav(books: list[Book]) -> str:
     reading = sorted((b for b in books if b.status == READING), key=lambda b: b.sort_key)
     finished = sorted((b for b in books if b.status == READ), key=lambda b: b.sort_key)
@@ -315,7 +435,7 @@ def render_nav(books: list[Book]) -> str:
         lines.append("    ] },")
     lines += ["  ] },", '  { "Want to read" = [', '    "want-to-read.md",']
     lines += entries(waiting)
-    lines += ["  ] },", "]"]
+    lines += ["  ] },", '  "tags/index.md",', "]"]
     return "\n".join(lines) + "\n"
 
 

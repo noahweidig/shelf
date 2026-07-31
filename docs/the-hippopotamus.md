@@ -1,10 +1,21 @@
 ---
 title: "The Hippopotamus"
+author: "Stephen Fry"
+narrator: "Stephen Fry"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Hippopotamus
 
-:lucide-user: **Stephen Fry** · :lucide-headphones: Audiobook · :lucide-mic: Read by Stephen Fry · :lucide-book-plus: Want to read
+Author
+:   Stephen Fry
+
+Format
+:   :lucide-headphones: Audiobook — read by Stephen Fry
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

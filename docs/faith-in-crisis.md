@@ -1,13 +1,23 @@
 ---
 title: "Faith in Crisis"
 description: "Critical Dialogues in Catholic Traditionalism, Church Authority, and Reform"
+author: "Andrew Likoudis"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Faith in Crisis
 
 *Critical Dialogues in Catholic Traditionalism, Church Authority, and Reform*
 
-:lucide-user: **Andrew Likoudis** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Andrew Likoudis
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

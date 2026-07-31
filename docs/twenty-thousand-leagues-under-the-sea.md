@@ -1,10 +1,21 @@
 ---
 title: "20,000 Leagues Under the Sea"
+author: "Jules Verne"
+narrator: "Bill Homewood"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: 20,000 Leagues Under the Sea
 
-:lucide-user: **Jules Verne** · :lucide-headphones: Audiobook · :lucide-mic: Read by Bill Homewood · :lucide-book-plus: Want to read
+Author
+:   Jules Verne
+
+Format
+:   :lucide-headphones: Audiobook — read by Bill Homewood
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

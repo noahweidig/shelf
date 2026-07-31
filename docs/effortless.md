@@ -1,13 +1,25 @@
 ---
 title: "Effortless"
 description: "Make It Easier to Do What Matters Most"
+author: "Greg McKeown"
+narrator: "Greg McKeown"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Effortless
 
 *Make It Easier to Do What Matters Most*
 
-:lucide-user: **Greg McKeown** · :lucide-headphones: Audiobook · :lucide-mic: Read by Greg McKeown · :lucide-book: Read in 2025
+Author
+:   Greg McKeown
+
+Format
+:   :lucide-headphones: Audiobook — read by Greg McKeown
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

@@ -1,13 +1,23 @@
 ---
 title: "American Canopy"
 description: "Trees, Forests, and the Making of a Nation"
+author: "Eric Rutkow"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: American Canopy
 
 *Trees, Forests, and the Making of a Nation*
 
-:lucide-user: **Eric Rutkow** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Eric Rutkow
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

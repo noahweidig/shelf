@@ -1,10 +1,21 @@
 ---
 title: "Extreme Ownership"
+author: "Jocko Willink & Leif Babin"
+narrator: "Jocko Willink & Leif Babin"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Extreme Ownership
 
-:lucide-user: **Jocko Willink & Leif Babin** · :lucide-headphones: Audiobook · :lucide-mic: Read by Jocko Willink & Leif Babin · :lucide-book-plus: Want to read
+Author
+:   Jocko Willink & Leif Babin
+
+Format
+:   :lucide-headphones: Audiobook — read by Jocko Willink & Leif Babin
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

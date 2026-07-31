@@ -1,10 +1,21 @@
 ---
 title: "The Odyssey"
+author: "Homer, translated by Stephen Fry"
+narrator: "Stephen Fry"
+format: audiobook
+status: reading
 ---
 
 # :lucide-book-marked: The Odyssey
 
-:lucide-user: **Homer, translated by Stephen Fry** · :lucide-headphones: Audiobook · :lucide-mic: Read by Stephen Fry · :lucide-book-marked: Reading
+Author
+:   Homer, translated by Stephen Fry
+
+Format
+:   :lucide-headphones: Audiobook — read by Stephen Fry
+
+Status
+:   :lucide-book-marked: Reading
 
 ---
 

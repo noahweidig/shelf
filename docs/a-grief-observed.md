@@ -1,10 +1,21 @@
 ---
 title: "A Grief Observed"
+author: "C. S. Lewis"
+narrator: "Ralph Cosham"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: A Grief Observed
 
-:lucide-user: **C. S. Lewis** · :lucide-headphones: Audiobook · :lucide-mic: Read by Ralph Cosham · :lucide-book-plus: Want to read
+Author
+:   C. S. Lewis
+
+Format
+:   :lucide-headphones: Audiobook — read by Ralph Cosham
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

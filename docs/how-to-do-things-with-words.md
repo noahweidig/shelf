@@ -1,10 +1,20 @@
 ---
 title: "How to Do Things with Words"
+author: "J. L. Austin"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: How to Do Things with Words
 
-:lucide-user: **J. L. Austin** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   J. L. Austin
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

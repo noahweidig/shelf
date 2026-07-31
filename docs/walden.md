@@ -1,10 +1,21 @@
 ---
 title: "Walden"
+author: "Henry David Thoreau"
+narrator: "Mel Foster"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Walden
 
-:lucide-user: **Henry David Thoreau** · :lucide-headphones: Audiobook · :lucide-mic: Read by Mel Foster · :lucide-book-plus: Want to read
+Author
+:   Henry David Thoreau
+
+Format
+:   :lucide-headphones: Audiobook — read by Mel Foster
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

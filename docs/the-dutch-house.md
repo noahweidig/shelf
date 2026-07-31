@@ -1,10 +1,21 @@
 ---
 title: "The Dutch House"
+author: "Ann Patchett"
+narrator: "Tom Hanks"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Dutch House
 
-:lucide-user: **Ann Patchett** · :lucide-headphones: Audiobook · :lucide-mic: Read by Tom Hanks · :lucide-book-plus: Want to read
+Author
+:   Ann Patchett
+
+Format
+:   :lucide-headphones: Audiobook — read by Tom Hanks
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,22 @@
 ---
 title: "Theology of the Body for Beginners"
+author: "Christopher West"
+narrator: "Christopher West"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Theology of the Body for Beginners
 
-:lucide-user: **Christopher West** · :lucide-headphones: Audiobook · :lucide-mic: Read by Christopher West · :lucide-book: Read in 2025
+Author
+:   Christopher West
+
+Format
+:   :lucide-headphones: Audiobook — read by Christopher West
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

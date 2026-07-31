@@ -1,10 +1,20 @@
 ---
 title: "On Liturgical Theology"
+author: "Aidan Kavanagh"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: On Liturgical Theology
 
-:lucide-user: **Aidan Kavanagh** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Aidan Kavanagh
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

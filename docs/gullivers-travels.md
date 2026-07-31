@@ -1,10 +1,21 @@
 ---
 title: "Gulliver's Travels"
+author: "Jonathan Swift"
+narrator: "David Hyde Pierce"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Gulliver's Travels
 
-:lucide-user: **Jonathan Swift** · :lucide-headphones: Audiobook · :lucide-mic: Read by David Hyde Pierce · :lucide-book-plus: Want to read
+Author
+:   Jonathan Swift
+
+Format
+:   :lucide-headphones: Audiobook — read by David Hyde Pierce
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

@@ -1,10 +1,22 @@
 ---
 title: "Go Set a Watchman"
+author: "Harper Lee"
+narrator: "Reese Witherspoon"
+format: audiobook
+status: read
+read_years: [2025]
 ---
 
 # :lucide-book: Go Set a Watchman
 
-:lucide-user: **Harper Lee** · :lucide-headphones: Audiobook · :lucide-mic: Read by Reese Witherspoon · :lucide-book: Read in 2025
+Author
+:   Harper Lee
+
+Format
+:   :lucide-headphones: Audiobook — read by Reese Witherspoon
+
+Status
+:   :lucide-book: Read in 2025
 
 ---
 

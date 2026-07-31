@@ -1,13 +1,24 @@
 ---
 title: "Lead Yourself First"
 description: "Inspiring Leadership Through Solitude"
+author: "Raymond M. Kethledge & Michael S. Erwin"
+narrator: "Michael Quinlan"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Lead Yourself First
 
 *Inspiring Leadership Through Solitude*
 
-:lucide-user: **Raymond M. Kethledge & Michael S. Erwin** · :lucide-headphones: Audiobook · :lucide-mic: Read by Michael Quinlan · :lucide-book-plus: Want to read
+Author
+:   Raymond M. Kethledge & Michael S. Erwin
+
+Format
+:   :lucide-headphones: Audiobook — read by Michael Quinlan
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

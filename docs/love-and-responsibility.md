@@ -1,10 +1,20 @@
 ---
 title: "Love & Responsibility"
+author: "Karol Wojtyla"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Love & Responsibility
 
-:lucide-user: **Karol Wojtyla** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Karol Wojtyla
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

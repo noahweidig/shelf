@@ -5,11 +5,11 @@ description: "Every book I have finished."
 
 # :lucide-book: Previously read
 
-105 books finished between 2022–2026.
+106 books finished between 2022–2026.
 
 ## 2026
 
-20 books finished · :lucide-headphones: 20 listened to
+21 books finished · :lucide-headphones: 21 listened to
 
 -   :lucide-headphones: [A Study in Scarlet](../a-study-in-scarlet.md "by Arthur Conan Doyle · read by Stephen Fry · Audiobook · Read in 2026, 2025")
 -   :lucide-headphones: [Animal Farm](../animal-farm.md "by George Orwell · read by Ralph Cosham · Audiobook · Read in 2026")
@@ -17,6 +17,7 @@ description: "Every book I have finished."
 -   :lucide-headphones: [Brideshead Revisited](../brideshead-revisited.md "by Evelyn Waugh · read by Jeremy Irons · Audiobook · Read in 2026, 2025, 2023")
 -   :lucide-headphones: [Fill These Hearts](../fill-these-hearts.md "by Christopher West · read by Christopher West · Audiobook · Read in 2026")
 -   :lucide-headphones: [Free](../free.md "by Chris Anderson · read by Chris Anderson · Audiobook · Read in 2026")
+-   :lucide-headphones: [Hidden Potential](../hidden-potential.md "by Adam Grant · read by Adam Grant · Audiobook · 5/5 · Read in 2026")
 -   :lucide-headphones: [Magic Pill](../magic-pill.md "by Johann Hari · read by Johann Hari · Audiobook · Read in 2026")
 -   :lucide-headphones: [Of Mice and Men](../of-mice-and-men.md "by John Steinbeck · read by Gary Sinise · Audiobook · Read in 2026")
 -   :lucide-headphones: [Stolen Focus](../stolen-focus.md "by Johann Hari · read by Johann Hari · Audiobook · Read in 2026, 2024")

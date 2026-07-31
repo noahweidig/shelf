@@ -1,10 +1,20 @@
 ---
 title: "Letter to Artists"
+author: "Pope St. John Paul II"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: Letter to Artists
 
-:lucide-user: **Pope St. John Paul II** · :lucide-headphones: Audiobook · :lucide-book-plus: Want to read
+Author
+:   Pope St. John Paul II
+
+Format
+:   :lucide-headphones: Audiobook
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

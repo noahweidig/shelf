@@ -1,10 +1,21 @@
 ---
 title: "What Every BODY Is Saying"
+author: "Joe Navarro"
+narrator: "Paul Costanzo"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: What Every BODY Is Saying
 
-:lucide-user: **Joe Navarro** · :lucide-headphones: Audiobook · :lucide-mic: Read by Paul Costanzo · :lucide-book-plus: Want to read
+Author
+:   Joe Navarro
+
+Format
+:   :lucide-headphones: Audiobook — read by Paul Costanzo
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 

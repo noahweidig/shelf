@@ -1,10 +1,21 @@
 ---
 title: "The Botany of Desire"
+author: "Michael Pollan"
+narrator: "Scott Brick"
+format: audiobook
+status: want
 ---
 
 # :lucide-book-plus: The Botany of Desire
 
-:lucide-user: **Michael Pollan** · :lucide-headphones: Audiobook · :lucide-mic: Read by Scott Brick · :lucide-book-plus: Want to read
+Author
+:   Michael Pollan
+
+Format
+:   :lucide-headphones: Audiobook — read by Scott Brick
+
+Status
+:   :lucide-book-plus: Want to read
 
 ---
 
