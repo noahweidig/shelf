@@ -24,15 +24,13 @@
         {% endif %}
       {% endif %}
       {% if tag.url %}
-        <a href="{{ tag.url | url }}" class="{{ class }}">
-          {{- tag.name -}}
-        </a>
+        {% set href, hint = tag.url, "" %}
       {% else %}
-        <a href="{{ ('?q=' ~ tag.name) | url }}" class="{{ class }}"
-            title="Search the shelf for {{ tag.name }}">
-          {{- tag.name -}}
-        </a>
+        {% set href, hint = "?q=" ~ tag.name, "Search the shelf for " ~ tag.name %}
       {% endif %}
+      <a href="{{ href | url }}" class="{{ class }}" title="{{ hint }}">
+        {{- tag.name -}}
+      </a>
     {% endfor %}
   </nav>
 {% endif %}

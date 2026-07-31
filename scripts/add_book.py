@@ -32,8 +32,10 @@ SHELVES = {
 FORMATS = {"audiobook": "audiobook", "physical": "physical"}
 
 NO_RESPONSE = "_no response_"
-SECTION = re.compile(r"^### +(?P<label>.+?)\s*$", re.MULTILINE)
-CHECKED = re.compile(r"^\s*- \[[xX]\] +(?P<label>.+?)\s*$", re.MULTILINE)
+# Both capture greedily to the end of the line and are stripped by the caller.
+# A lazy `.+?` followed by `\s*$` would mean the same thing but backtrack.
+SECTION = re.compile(r"^### +(?P<label>.+)$", re.MULTILINE)
+CHECKED = re.compile(r"^ *- \[[xX]\] +(?P<label>.+)$", re.MULTILINE)
 
 
 def fail(message: str) -> None:
@@ -95,7 +97,7 @@ def build(body: str) -> tuple[str, str]:
         lines.append(f"format: {book_format}")
     lines.append(f"shelf: {shelf}")
 
-    years = [y for y in re.findall(r"\d{4}", field.get("year(s) finished", ""))]
+    years = re.findall(r"\d{4}", field.get("year(s) finished", ""))
     if shelf == "read":
         if not years:
             fail("a previously read book needs at least one year finished")
@@ -107,7 +109,7 @@ def build(body: str) -> tuple[str, str]:
     if rating.isdigit():
         lines.append(f"rating: {rating}")
 
-    tags = sorted(CHECKED.findall(field.get("tags", "")))
+    tags = sorted(label.strip() for label in CHECKED.findall(field.get("tags", "")))
     if tags:
         lines.append("tags: " + quote_list(tags))
     lines.append("---")
@@ -126,7 +128,12 @@ def main() -> int:
         fail("usage: add_book.py <issue-body-file>")
 
     slug, page = build(Path(sys.argv[1]).read_text(encoding="utf-8"))
-    path = DOCS / f"{slug}.md"
+    path = (DOCS / f"{slug}.md").resolve()
+    # `slugify` already reduces the title to `[a-z0-9-]`, so it cannot climb out
+    # of `docs/`. Say so to the filesystem anyway: this writes a file from the
+    # body of a public issue, and the check costs nothing.
+    if path.parent != DOCS.resolve():
+        fail(f"refusing to write outside docs/: {path}")
     if path.exists():
         fail(f"{path.relative_to(ROOT)} already exists — that book is on the shelf")
 
