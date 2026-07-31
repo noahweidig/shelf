@@ -28,7 +28,8 @@
       {% else %}
         {% set href, hint = "?q=" ~ tag.name, "Search the shelf for " ~ tag.name %}
       {% endif %}
-      <a href="{{ href | url }}" class="{{ class }}" title="{{ hint }}">
+      {# No `title` at all on the upstream branch, rather than an empty one. #}
+      <a href="{{ href | url }}" class="{{ class }}"{% if hint %} title="{{ hint }}"{% endif %}>
         {{- tag.name -}}
       </a>
     {% endfor %}
