@@ -6,7 +6,7 @@ icon: lucide/book-plus
 
 # :lucide-book-plus: Want to read
 
-114 books waiting their turn.
+115 books waiting their turn.
 
 <div class="grid cards" markdown>
 
@@ -300,6 +300,9 @@ icon: lucide/book-plus
 
 -   :lucide-headphones:{ title="Audiobook" } **[The Seven Storey Mountain](the-seven-storey-mountain.md)**<br>
     :lucide-user-round:{ title="Author" } Thomas Merton
+
+-   :lucide-headphones:{ title="Audiobook" } **[The Simarillion](the-simarillion.md)**<br>
+    :lucide-user-round:{ title="Author" } J. R. R. Tolkien
 
 -   :lucide-headphones:{ title="Audiobook" } **[The Stars' Tennis Balls](the-stars-tennis-balls.md)**<br>
     :lucide-user-round:{ title="Author" } Stephen Fry
