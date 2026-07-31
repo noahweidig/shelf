@@ -12,7 +12,7 @@ icon: lucide/book-marked
 
 -   :lucide-book:{ title="Finished" } **106** read
 
--   :lucide-book-plus:{ title="Waiting on the shelf" } **113** to read
+-   :lucide-book-plus:{ title="Waiting on the shelf" } **114** to read
 
 -   :lucide-headphones:{ title="Listened to rather than read" } **83** listened to
 
